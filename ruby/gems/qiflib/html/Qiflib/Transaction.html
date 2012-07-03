@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+	<title>Class: Qiflib::Transaction</title>
+
+	<link rel="stylesheet" href="../rdoc.css" type="text/css" media="screen" />
+
+	<script src="../js/jquery.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="../js/thickbox-compressed.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="../js/quicksearch.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="../js/darkfish.js" type="text/javascript"
+		charset="utf-8"></script>
+
+</head>
+<body class="class">
+
+	<div id="metadata">
+		<div id="home-metadata">
+			<div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="../index.html">Home</a>
+          <a href="../index.html#classes">Classes</a>
+          <a href="../index.html#methods">Methods</a>
+        </h3>
+			</div>
+		</div>
+
+		<div id="file-metadata">
+			<div id="file-list-section" class="section">
+				<h3 class="section-header">In Files</h3>
+				<div class="section-body">
+					<ul>
+					
+						<li><a href="../lib/qiflib_transaction_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+							class="thickbox" title="lib/qiflib_transaction.rb">lib/qiflib_transaction.rb</a></li>
+					
+					</ul>
+				</div>
+			</div>
+
+			
+		</div>
+
+		<div id="class-metadata">
+
+			<!-- Parent Class -->
+			
+			<div id="parent-class-section" class="section">
+				<h3 class="section-header">Parent</h3>
+				
+				<p class="link">Object</p>
+				
+			</div>
+			
+
+			<!-- Namespace Contents -->
+			
+
+			<!-- Method Quickref -->
+			
+			<div id="method-list-section" class="section">
+				<h3 class="section-header">Methods</h3>
+				<ul class="link-list">
+					
+					<li><a href="#method-c-csv_header">::csv_header</a></li>
+					
+					<li><a href="#method-c-new">::new</a></li>
+					
+					<li><a href="#method-i-add_line">#add_line</a></li>
+					
+					<li><a href="#method-i-as_array">#as_array</a></li>
+					
+					<li><a href="#method-i-current_split">#current_split</a></li>
+					
+					<li><a href="#method-i-ibank%3F">#ibank?</a></li>
+					
+					<li><a href="#method-i-line_value">#line_value</a></li>
+					
+					<li><a href="#method-i-to_csv">#to_csv</a></li>
+					
+					<li><a href="#method-i-valid%3F">#valid?</a></li>
+					
+				</ul>
+			</div>
+			
+
+			<!-- Included Modules -->
+			
+		</div>
+
+		<div id="project-metadata">
+			
+			
+			<div id="fileindex-section" class="section project-section">
+				<h3 class="section-header">Files</h3>
+				<ul>
+				
+					<li class="file"><a href="../README_rdoc.html">README.rdoc</a></li>
+				
+				</ul>
+			</div>
+			
+
+			<div id="classindex-section" class="section project-section">
+				<h3 class="section-header">Class Index
+					<span class="search-toggle"><img src="../images/find.png"
+						height="16" width="16" alt="[+]"
+						title="show/hide quicksearch" /></span></h3>
+				<form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+				<fieldset>
+					<legend>Quicksearch</legend>
+					<input type="text" name="quicksearch" value=""
+						class="quicksearch-field" />
+				</fieldset>
+				</form>
+
+				<ul class="link-list">
+				
+					<li><a href="../Qiflib.html">Qiflib</a></li>
+				
+					<li><a href="../Qiflib/Category.html">Qiflib::Category</a></li>
+				
+					<li><a href="../Qiflib/Date.html">Qiflib::Date</a></li>
+				
+					<li><a href="../Qiflib/Money.html">Qiflib::Money</a></li>
+				
+					<li><a href="../Qiflib/Transaction.html">Qiflib::Transaction</a></li>
+				
+					<li><a href="../Qiflib/Util.html">Qiflib::Util</a></li>
+				
+				</ul>
+				<div id="no-class-search-results" style="display: none;">No matching classes.</div>
+			</div>
+
+			
+		</div>
+	</div>
+
+	<div id="documentation">
+		<h1 class="class">Qiflib::Transaction</h1>
+
+		<div id="description">
+			<p>
+Instances of this class represent a transaction parsed within an !Account
+section of a qif file.
+</p>
+
+		</div>
+
+		<!-- Constants -->
+		
+
+		<!-- Attributes -->
+		
+		<div id="attribute-method-details" class="method-section section">
+			<h3 class="section-header">Attributes</h3>
+
+			
+			<div id="id-attribute-method" class="method-detail">
+				<a name="id"></a>
+				
+				<a name="id="></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">id</span><span
+						class="attribute-access-type">[RW]</span>
+				</div>
+
+				<div class="method-description">
+				
+				
+				
+				</div>
+			</div>
+			
+			<div id="acct-owner-attribute-method" class="method-detail">
+				<a name="acct_owner"></a>
+				
+				<a name="acct_owner="></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">acct_owner</span><span
+						class="attribute-access-type">[RW]</span>
+				</div>
+
+				<div class="method-description">
+				
+				
+				
+				</div>
+			</div>
+			
+			<div id="acct-name-attribute-method" class="method-detail">
+				<a name="acct_name"></a>
+				
+				<a name="acct_name="></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">acct_name</span><span
+						class="attribute-access-type">[RW]</span>
+				</div>
+
+				<div class="method-description">
+				
+				
+				
+				</div>
+			</div>
+			
+			<div id="acct-type-attribute-method" class="method-detail">
+				<a name="acct_type"></a>
+				
+				<a name="acct_type="></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">acct_type</span><span
+						class="attribute-access-type">[RW]</span>
+				</div>
+
+				<div class="method-description">
+				
+				
+				
+				</div>
+			</div>
+			
+			<div id="source-app-attribute-method" class="method-detail">
+				<a name="source_app"></a>
+				
+				<a name="source_app="></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">source_app</span><span
+						class="attribute-access-type">[RW]</span>
+				</div>
+
+				<div class="method-description">
+				
+				
+				
+				</div>
+			</div>
+			
+			<div id="date-attribute-method" class="method-detail">
+				<a name="date"></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">date</span><span
+						class="attribute-access-type">[R]</span>
+				</div>
+
+				<div class="method-description">
+				
+				
+				
+				</div>
+			</div>
+			
+			<div id="amount-attribute-method" class="method-detail">
+				<a name="amount"></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">amount</span><span
+						class="attribute-access-type">[R]</span>
+				</div>
+
+				<div class="method-description">
+				
+				
+				
+				</div>
+			</div>
+			
+			<div id="cleared-attribute-method" class="method-detail">
+				<a name="cleared"></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">cleared</span><span
+						class="attribute-access-type">[R]</span>
+				</div>
+
+				<div class="method-description">
+				
+				
+				
+				</div>
+			</div>
+			
+			<div id="category-attribute-method" class="method-detail">
+				<a name="category"></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">category</span><span
+						class="attribute-access-type">[R]</span>
+				</div>
+
+				<div class="method-description">
+				
+				
+				
+				</div>
+			</div>
+			
+			<div id="number-attribute-method" class="method-detail">
+				<a name="number"></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">number</span><span
+						class="attribute-access-type">[R]</span>
+				</div>
+
+				<div class="method-description">
+				
+				
+				
+				</div>
+			</div>
+			
+			<div id="payee-attribute-method" class="method-detail">
+				<a name="payee"></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">payee</span><span
+						class="attribute-access-type">[R]</span>
+				</div>
+
+				<div class="method-description">
+				
+				
+				
+				</div>
+			</div>
+			
+			<div id="memo-attribute-method" class="method-detail">
+				<a name="memo"></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">memo</span><span
+						class="attribute-access-type">[R]</span>
+				</div>
+
+				<div class="method-description">
+				
+				
+				
+				</div>
+			</div>
+			
+			<div id="splits-attribute-method" class="method-detail">
+				<a name="splits"></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">splits</span><span
+						class="attribute-access-type">[R]</span>
+				</div>
+
+				<div class="method-description">
+				
+				
+				
+				</div>
+			</div>
+			
+			<div id="address-attribute-method" class="method-detail">
+				<a name="address"></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">address</span><span
+						class="attribute-access-type">[R]</span>
+				</div>
+
+				<div class="method-description">
+				
+				
+				
+				</div>
+			</div>
+			
+			<div id="ibank-n-attribute-method" class="method-detail">
+				<a name="ibank_n"></a>
+				
+				<div class="method-heading attribute-method-heading">
+					<span class="method-name">ibank_n</span><span
+						class="attribute-access-type">[R]</span>
+				</div>
+
+				<div class="method-description">
+				
+				
+				
+				</div>
+			</div>
+			
+		</div>
+		
+
+		<!-- Methods -->
+		
+		<div id="public-class-method-details" class="method-section section">
+			<h3 class="section-header">Public Class Methods</h3>
+
+		
+			<div id="csv-header-method" class="method-detail ">
+				<a name="method-c-csv_header"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">csv_header</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					
+					
+
+					
+					<div class="method-source-code"
+						id="csv-header-source">
+<pre>
+    <span class="ruby-comment cmt"># File lib/qiflib_transaction.rb, line 14</span>
+14:     <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">csv_header</span>
+15:       <span class="ruby-constant">CSV</span>.<span class="ruby-identifier">generate</span> <span class="ruby-keyword kw">do</span> <span class="ruby-operator">|</span> <span class="ruby-identifier">csv</span> <span class="ruby-operator">|</span>
+16:         <span class="ruby-identifier">csv</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">Qiflib</span><span class="ruby-operator">::</span><span class="ruby-identifier">csv_transaction_field_names</span>
+17:       <span class="ruby-keyword kw">end</span> 
+18:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="new-method" class="method-detail ">
+				<a name="method-c-new"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">new</span><span
+						class="method-args">(acct_owner=nil, acct_name=nil, acct_type=nil, source_app='quicken')</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					
+					
+
+					
+					<div class="method-source-code"
+						id="new-source">
+<pre>
+    <span class="ruby-comment cmt"># File lib/qiflib_transaction.rb, line 20</span>
+20:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">initialize</span>(<span class="ruby-identifier">acct_owner</span>=<span class="ruby-keyword kw">nil</span>, <span class="ruby-identifier">acct_name</span>=<span class="ruby-keyword kw">nil</span>, <span class="ruby-identifier">acct_type</span>=<span class="ruby-keyword kw">nil</span>, <span class="ruby-identifier">source_app</span>=<span class="ruby-value str">'quicken'</span>)
+21:       <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">acct_owner</span>
+22:         <span class="ruby-ivar">@acct_owner</span> = <span class="ruby-node">&quot;#{acct_owner}&quot;</span>.<span class="ruby-identifier">downcase</span>
+23:         <span class="ruby-ivar">@acct_name</span>  = <span class="ruby-node">&quot;#{acct_name}&quot;</span>.<span class="ruby-identifier">downcase</span>
+24:         <span class="ruby-ivar">@acct_type</span>  = <span class="ruby-node">&quot;#{acct_type}&quot;</span>.<span class="ruby-identifier">downcase</span>
+25:         <span class="ruby-ivar">@source_app</span> = <span class="ruby-node">&quot;#{source_app}&quot;</span>.<span class="ruby-identifier">downcase</span>
+26:         <span class="ruby-ivar">@id</span>, <span class="ruby-ivar">@date</span>, <span class="ruby-ivar">@amount</span>, <span class="ruby-ivar">@cleared</span>, <span class="ruby-ivar">@category</span>, <span class="ruby-ivar">@number</span>, <span class="ruby-ivar">@memo</span>, <span class="ruby-ivar">@payee</span> = <span class="ruby-value">0</span>, <span class="ruby-keyword kw">nil</span>, <span class="ruby-keyword kw">nil</span>, <span class="ruby-value str">''</span>, <span class="ruby-value str">''</span>, <span class="ruby-value str">''</span>, <span class="ruby-value str">''</span>, <span class="ruby-value str">''</span>
+27:         <span class="ruby-ivar">@splits</span>, <span class="ruby-ivar">@curr_split</span>, <span class="ruby-ivar">@address</span>, <span class="ruby-ivar">@ibank_n</span> = [], {}, [], <span class="ruby-value str">''</span>
+28:       <span class="ruby-keyword kw">end</span>
+29:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+		</div>
+	
+		<div id="public-instance-method-details" class="method-section section">
+			<h3 class="section-header">Public Instance Methods</h3>
+
+		
+			<div id="add-line-method" class="method-detail ">
+				<a name="method-i-add_line"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">add_line</span><span
+						class="method-args">(line)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					
+					
+
+					
+					<div class="method-source-code"
+						id="add-line-source">
+<pre>
+    <span class="ruby-comment cmt"># File lib/qiflib_transaction.rb, line 31</span>
+31:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">add_line</span>(<span class="ruby-identifier">line</span>)
+32:       <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">line</span>
+33:         <span class="ruby-identifier">stripped</span> = <span class="ruby-identifier">line</span>.<span class="ruby-identifier">strip</span>
+34:         <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">stripped</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">&gt;</span> <span class="ruby-value">0</span>
+35:           <span class="ruby-comment cmt"># Field Indicator Explanations: </span>
+36:           <span class="ruby-comment cmt"># D Date </span>
+37:           <span class="ruby-comment cmt"># T Amount </span>
+38:           <span class="ruby-comment cmt"># C Cleared status </span>
+39:           <span class="ruby-comment cmt"># N Num (check or reference number)  </span>
+40:           <span class="ruby-comment cmt"># P Payee </span>
+41:           <span class="ruby-comment cmt"># M Memo </span>
+42:           <span class="ruby-comment cmt"># A Address (up to five lines; the sixth line is an optional message)</span>
+43:           <span class="ruby-comment cmt"># L Category (Category/Subcategory/Transfer/Class)  </span>
+44:           <span class="ruby-comment cmt"># S Category in split (Category/Transfer/Class)  </span>
+45:           <span class="ruby-comment cmt"># E Memo in split </span>
+46:           <span class="ruby-comment cmt"># $ Dollar amount of split </span>
+47:           <span class="ruby-comment cmt"># ^ End of the entry</span>
+48:           <span class="ruby-keyword kw">if</span> (<span class="ruby-identifier">stripped</span>.<span class="ruby-identifier">match</span>(<span class="ruby-regexp re">/^D/</span>))
+49:             <span class="ruby-ivar">@date</span> = <span class="ruby-constant">Qiflib</span><span class="ruby-operator">::</span><span class="ruby-constant">Date</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">line_value</span>(<span class="ruby-identifier">stripped</span>))
+50:           <span class="ruby-keyword kw">elsif</span> (<span class="ruby-identifier">stripped</span>.<span class="ruby-identifier">match</span>(<span class="ruby-regexp re">/^T/</span>))
+51:             <span class="ruby-ivar">@amount</span> = <span class="ruby-constant">Qiflib</span><span class="ruby-operator">::</span><span class="ruby-constant">Money</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">line_value</span>(<span class="ruby-identifier">stripped</span>))
+52:           <span class="ruby-keyword kw">elsif</span> (<span class="ruby-identifier">stripped</span>.<span class="ruby-identifier">match</span>(<span class="ruby-regexp re">/^P/</span>))
+53:             <span class="ruby-ivar">@payee</span> = <span class="ruby-identifier">line_value</span>(<span class="ruby-identifier">stripped</span>)
+54:           <span class="ruby-keyword kw">elsif</span> (<span class="ruby-identifier">stripped</span>.<span class="ruby-identifier">match</span>(<span class="ruby-regexp re">/^C/</span>))
+55:             <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">ibank?</span>
+56:               <span class="ruby-ivar">@number</span> = <span class="ruby-identifier">line_value</span>(<span class="ruby-identifier">stripped</span>)
+57:             <span class="ruby-keyword kw">else</span>
+58:               <span class="ruby-ivar">@cleared</span> = <span class="ruby-identifier">line_value</span>(<span class="ruby-identifier">stripped</span>)
+59:             <span class="ruby-keyword kw">end</span>
+60:           <span class="ruby-keyword kw">elsif</span> (<span class="ruby-identifier">stripped</span>.<span class="ruby-identifier">match</span>(<span class="ruby-regexp re">/^N/</span>))
+61:             <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">ibank?</span>
+62:               <span class="ruby-ivar">@ibank_n</span> = <span class="ruby-identifier">line_value</span>(<span class="ruby-identifier">stripped</span>)
+63:             <span class="ruby-keyword kw">else</span>
+64:               <span class="ruby-ivar">@number</span> = <span class="ruby-identifier">line_value</span>(<span class="ruby-identifier">stripped</span>)
+65:             <span class="ruby-keyword kw">end</span> 
+66:           <span class="ruby-keyword kw">elsif</span> (<span class="ruby-identifier">stripped</span>.<span class="ruby-identifier">match</span>(<span class="ruby-regexp re">/^M/</span>))
+67:             <span class="ruby-ivar">@memo</span> = <span class="ruby-identifier">line_value</span>(<span class="ruby-identifier">stripped</span>)
+68:           <span class="ruby-keyword kw">elsif</span> (<span class="ruby-identifier">stripped</span>.<span class="ruby-identifier">match</span>(<span class="ruby-regexp re">/^L/</span>))
+69:             <span class="ruby-ivar">@category</span> = <span class="ruby-identifier">line_value</span>(<span class="ruby-identifier">stripped</span>).<span class="ruby-identifier">downcase</span>
+70:           <span class="ruby-keyword kw">elsif</span> (<span class="ruby-identifier">stripped</span>.<span class="ruby-identifier">match</span>(<span class="ruby-regexp re">/^S/</span>))
+71:             <span class="ruby-identifier">current_split</span>[<span class="ruby-value str">'category'</span>] = <span class="ruby-identifier">line_value</span>(<span class="ruby-identifier">stripped</span>).<span class="ruby-identifier">downcase</span>
+72:           <span class="ruby-keyword kw">elsif</span> (<span class="ruby-identifier">stripped</span>.<span class="ruby-identifier">match</span>(<span class="ruby-regexp re">/^E/</span>))
+73:             <span class="ruby-identifier">current_split</span>[<span class="ruby-value str">'memo'</span>] = <span class="ruby-identifier">line_value</span>(<span class="ruby-identifier">stripped</span>)
+74:           <span class="ruby-keyword kw">elsif</span> (<span class="ruby-identifier">stripped</span>.<span class="ruby-identifier">match</span>(<span class="ruby-regexp re">/^A/</span>))
+75:             <span class="ruby-ivar">@address</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">line_value</span>(<span class="ruby-identifier">stripped</span>)
+76:           <span class="ruby-keyword kw">elsif</span> (<span class="ruby-identifier">stripped</span>.<span class="ruby-identifier">match</span>(<span class="ruby-regexp re">/^\$/</span>))
+77:             <span class="ruby-identifier">current_split</span>[<span class="ruby-value str">'amount'</span>] = <span class="ruby-constant">Qiflib</span><span class="ruby-operator">::</span><span class="ruby-constant">Money</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">line_value</span>(<span class="ruby-identifier">stripped</span>))
+78:             <span class="ruby-identifier">splits</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">current_split</span>
+79:             <span class="ruby-ivar">@curr_split</span> = {}
+80:           <span class="ruby-keyword kw">end</span>
+81:         <span class="ruby-keyword kw">end</span> 
+82:       <span class="ruby-keyword kw">end</span> 
+83:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="as-array-method" class="method-detail ">
+				<a name="method-i-as_array"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">as_array</span><span
+						class="method-args">(idx=0)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					
+					
+
+					
+					<div class="method-source-code"
+						id="as-array-source">
+<pre>
+     <span class="ruby-comment cmt"># File lib/qiflib_transaction.rb, line 107</span>
+107:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">as_array</span>(<span class="ruby-identifier">idx</span>=<span class="ruby-value">0</span>)
+108:       <span class="ruby-identifier">array</span> = []
+109:       <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">idx</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>
+110:       <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">acct_owner</span>.<span class="ruby-identifier">downcase</span>
+111:       <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">acct_name</span>.<span class="ruby-identifier">downcase</span>
+112:       <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">acct_type</span>.<span class="ruby-identifier">downcase</span>
+113:       <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">date</span>.<span class="ruby-identifier">to_s</span>
+114:       <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">amount</span>.<span class="ruby-identifier">to_s</span>
+115:       <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">number</span>
+116:       <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">ibank_n</span>
+117:       <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">cleared</span>
+118:       <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">payee</span>
+119:       <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">category</span>
+120:       <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">memo</span>
+121:       <span class="ruby-value">3</span>.<span class="ruby-identifier">times</span> { <span class="ruby-operator">|</span> <span class="ruby-identifier">i</span> <span class="ruby-operator">|</span>
+122:         <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">i</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">splits</span>.<span class="ruby-identifier">size</span>
+123:           <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">splits</span>[<span class="ruby-identifier">i</span>][<span class="ruby-value str">'amount'</span>]
+124:           <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">splits</span>[<span class="ruby-identifier">i</span>][<span class="ruby-value str">'category'</span>] 
+125:           <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">splits</span>[<span class="ruby-identifier">i</span>][<span class="ruby-value str">'memo'</span>] 
+126:         <span class="ruby-keyword kw">else</span>
+127:           <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'0.0'</span>
+128:           <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">''</span>
+129:           <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">''</span>
+130:         <span class="ruby-keyword kw">end</span>
+131:       }
+132:       <span class="ruby-value">6</span>.<span class="ruby-identifier">times</span> { <span class="ruby-operator">|</span> <span class="ruby-identifier">i</span> <span class="ruby-operator">|</span>
+133:         <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">i</span> <span class="ruby-operator">&lt;</span> <span class="ruby-identifier">address</span>.<span class="ruby-identifier">size</span>
+134:           <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">address</span>[<span class="ruby-identifier">i</span>]
+135:         <span class="ruby-keyword kw">else</span>
+136:           <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">''</span>
+137:         <span class="ruby-keyword kw">end</span>
+138:       }
+139:       <span class="ruby-identifier">array</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'x'</span>
+140:       <span class="ruby-identifier">array</span>
+141:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="current-split-method" class="method-detail ">
+				<a name="method-i-current_split"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">current_split</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					
+					
+
+					
+					<div class="method-source-code"
+						id="current-split-source">
+<pre>
+    <span class="ruby-comment cmt"># File lib/qiflib_transaction.rb, line 96</span>
+96:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">current_split</span>
+97:       <span class="ruby-ivar">@curr_split</span> = {} <span class="ruby-keyword kw">if</span> <span class="ruby-ivar">@curr_split</span>.<span class="ruby-identifier">nil?</span>
+98:       <span class="ruby-ivar">@curr_split</span>
+99:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="ibank--method" class="method-detail ">
+				<a name="method-i-ibank%3F"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">ibank?</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					
+					
+
+					
+					<div class="method-source-code"
+						id="ibank--source">
+<pre>
+    <span class="ruby-comment cmt"># File lib/qiflib_transaction.rb, line 85</span>
+85:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">ibank?</span>
+86:       <span class="ruby-ivar">@source_app</span> <span class="ruby-operator">==</span> <span class="ruby-value str">'ibank'</span>
+87:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="line-value-method" class="method-detail ">
+				<a name="method-i-line_value"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">line_value</span><span
+						class="method-args">(s)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					
+					
+
+					
+					<div class="method-source-code"
+						id="line-value-source">
+<pre>
+     <span class="ruby-comment cmt"># File lib/qiflib_transaction.rb, line 143</span>
+143:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">line_value</span>(<span class="ruby-identifier">s</span>)
+144:       <span class="ruby-keyword kw">return</span> <span class="ruby-value str">''</span> <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">s</span>.<span class="ruby-identifier">nil?</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">s</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">1</span>
+145:       <span class="ruby-identifier">s</span>[<span class="ruby-value">1</span>, <span class="ruby-identifier">s</span>.<span class="ruby-identifier">size</span>].<span class="ruby-identifier">strip</span>
+146:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="to-csv-method" class="method-detail ">
+				<a name="method-i-to_csv"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">to_csv</span><span
+						class="method-args">(idx=0)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					
+					
+
+					
+					<div class="method-source-code"
+						id="to-csv-source">
+<pre>
+     <span class="ruby-comment cmt"># File lib/qiflib_transaction.rb, line 101</span>
+101:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">to_csv</span>(<span class="ruby-identifier">idx</span>=<span class="ruby-value">0</span>)
+102:       <span class="ruby-constant">CSV</span>.<span class="ruby-identifier">generate</span> <span class="ruby-keyword kw">do</span> <span class="ruby-operator">|</span> <span class="ruby-identifier">csv</span> <span class="ruby-operator">|</span>
+103:         <span class="ruby-identifier">csv</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">as_array</span>(<span class="ruby-identifier">idx</span>)
+104:       <span class="ruby-keyword kw">end</span> 
+105:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="valid--method" class="method-detail ">
+				<a name="method-i-valid%3F"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">valid?</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					
+					
+
+					
+					<div class="method-source-code"
+						id="valid--source">
+<pre>
+    <span class="ruby-comment cmt"># File lib/qiflib_transaction.rb, line 89</span>
+89:     <span class="ruby-keyword kw">def</span> <span class="ruby-identifier">valid?</span>
+90:       <span class="ruby-keyword kw">return</span> <span class="ruby-keyword kw">false</span> <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">date</span>.<span class="ruby-identifier">nil?</span>
+91:       <span class="ruby-keyword kw">return</span> <span class="ruby-keyword kw">false</span> <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">date</span>.<span class="ruby-identifier">to_s</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">8</span> 
+92:       <span class="ruby-keyword kw">return</span> <span class="ruby-keyword kw">false</span> <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">date</span>.<span class="ruby-identifier">to_s</span> <span class="ruby-operator">==</span> <span class="ruby-value str">'0000-00-00'</span>
+93:       <span class="ruby-keyword kw">true</span>
+94:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+		</div>
+	
+
+	</div>
+
+
+	<div id="rdoc-debugging-section-dump" class="debugging-section">
+	
+		<p>Disabled; run with --debug to generate this.</p>
+	
+	</div>
+
+	<div id="validator-badges">
+		<p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+		<p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+			Rdoc Generator</a> 1.1.6</small>.</p>
+	</div>
+
+</body>
+</html>
+

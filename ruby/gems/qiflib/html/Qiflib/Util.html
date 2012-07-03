@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+	<title>Class: Qiflib::Util</title>
+
+	<link rel="stylesheet" href="../rdoc.css" type="text/css" media="screen" />
+
+	<script src="../js/jquery.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="../js/thickbox-compressed.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="../js/quicksearch.js" type="text/javascript"
+		charset="utf-8"></script>
+	<script src="../js/darkfish.js" type="text/javascript"
+		charset="utf-8"></script>
+
+</head>
+<body class="class">
+
+	<div id="metadata">
+		<div id="home-metadata">
+			<div id="home-section" class="section">
+        <h3 class="section-header">
+          <a href="../index.html">Home</a>
+          <a href="../index.html#classes">Classes</a>
+          <a href="../index.html#methods">Methods</a>
+        </h3>
+			</div>
+		</div>
+
+		<div id="file-metadata">
+			<div id="file-list-section" class="section">
+				<h3 class="section-header">In Files</h3>
+				<div class="section-body">
+					<ul>
+					
+						<li><a href="../lib/qiflib_util_rb.html?TB_iframe=true&amp;height=550&amp;width=785"
+							class="thickbox" title="lib/qiflib_util.rb">lib/qiflib_util.rb</a></li>
+					
+					</ul>
+				</div>
+			</div>
+
+			
+		</div>
+
+		<div id="class-metadata">
+
+			<!-- Parent Class -->
+			
+			<div id="parent-class-section" class="section">
+				<h3 class="section-header">Parent</h3>
+				
+				<p class="link">Object</p>
+				
+			</div>
+			
+
+			<!-- Namespace Contents -->
+			
+
+			<!-- Method Quickref -->
+			
+			<div id="method-list-section" class="section">
+				<h3 class="section-header">Methods</h3>
+				<ul class="link-list">
+					
+					<li><a href="#method-c-catetory_names_to_csv">::catetory_names_to_csv</a></li>
+					
+					<li><a href="#method-c-catetory_names_to_delim">::catetory_names_to_delim</a></li>
+					
+					<li><a href="#method-c-generate_sqlite_ddl">::generate_sqlite_ddl</a></li>
+					
+					<li><a href="#method-c-generate_sqlite_load_script">::generate_sqlite_load_script</a></li>
+					
+					<li><a href="#method-c-line_value">::line_value</a></li>
+					
+					<li><a href="#method-c-process_file_for_transactions">::process_file_for_transactions</a></li>
+					
+					<li><a href="#method-c-transactions_to_csv">::transactions_to_csv</a></li>
+					
+					<li><a href="#method-c-transactions_to_delim">::transactions_to_delim</a></li>
+					
+				</ul>
+			</div>
+			
+
+			<!-- Included Modules -->
+			
+		</div>
+
+		<div id="project-metadata">
+			
+			
+			<div id="fileindex-section" class="section project-section">
+				<h3 class="section-header">Files</h3>
+				<ul>
+				
+					<li class="file"><a href="../README_rdoc.html">README.rdoc</a></li>
+				
+				</ul>
+			</div>
+			
+
+			<div id="classindex-section" class="section project-section">
+				<h3 class="section-header">Class Index
+					<span class="search-toggle"><img src="../images/find.png"
+						height="16" width="16" alt="[+]"
+						title="show/hide quicksearch" /></span></h3>
+				<form action="#" method="get" accept-charset="utf-8" class="initially-hidden">
+				<fieldset>
+					<legend>Quicksearch</legend>
+					<input type="text" name="quicksearch" value=""
+						class="quicksearch-field" />
+				</fieldset>
+				</form>
+
+				<ul class="link-list">
+				
+					<li><a href="../Qiflib.html">Qiflib</a></li>
+				
+					<li><a href="../Qiflib/Category.html">Qiflib::Category</a></li>
+				
+					<li><a href="../Qiflib/Date.html">Qiflib::Date</a></li>
+				
+					<li><a href="../Qiflib/Money.html">Qiflib::Money</a></li>
+				
+					<li><a href="../Qiflib/Transaction.html">Qiflib::Transaction</a></li>
+				
+					<li><a href="../Qiflib/Util.html">Qiflib::Util</a></li>
+				
+				</ul>
+				<div id="no-class-search-results" style="display: none;">No matching classes.</div>
+			</div>
+
+			
+		</div>
+	</div>
+
+	<div id="documentation">
+		<h1 class="class">Qiflib::Util</h1>
+
+		<div id="description">
+			<p>
+This is the API class of the &#8216;qiflib&#8217; library; all
+functionality is accessed via the class/static methods of this class.
+</p>
+
+		</div>
+
+		<!-- Constants -->
+		
+
+		<!-- Attributes -->
+		
+
+		<!-- Methods -->
+		
+		<div id="public-class-method-details" class="method-section section">
+			<h3 class="section-header">Public Class Methods</h3>
+
+		
+			<div id="catetory-names-to-csv-method" class="method-detail ">
+				<a name="method-c-catetory_names_to_csv"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">catetory_names_to_csv</span><span
+						class="method-args">(files_list)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Return lines in CSV format which contain the list of categories within the
+given Array of filenames.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="catetory-names-to-csv-source">
+<pre>
+    <span class="ruby-comment cmt"># File lib/qiflib_util.rb, line 12</span>
+12:     <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">catetory_names_to_csv</span>(<span class="ruby-identifier">files_list</span>)
+13:       <span class="ruby-identifier">categories</span>, <span class="ruby-identifier">csv_lines</span> = [], []
+14:       <span class="ruby-identifier">csv_lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">Qiflib</span><span class="ruby-operator">::</span><span class="ruby-constant">Category</span>.<span class="ruby-identifier">csv_header</span>
+15:       <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">files_list</span>
+16:         <span class="ruby-identifier">files_list</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span> <span class="ruby-identifier">filename</span> <span class="ruby-operator">|</span>
+17:           <span class="ruby-keyword kw">begin</span>
+18:             <span class="ruby-identifier">file</span>, <span class="ruby-identifier">in_cats</span> = <span class="ruby-constant">File</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">filename</span>, <span class="ruby-value str">'r'</span>), <span class="ruby-keyword kw">false</span>
+19:             <span class="ruby-keyword kw">while</span> (<span class="ruby-identifier">line</span> = <span class="ruby-identifier">file</span>.<span class="ruby-identifier">gets</span>)
+20:               <span class="ruby-identifier">stripped</span> = <span class="ruby-identifier">line</span>.<span class="ruby-identifier">strip</span>
+21:               <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">stripped</span>.<span class="ruby-identifier">match</span>(<span class="ruby-regexp re">/^!Type:Cat/</span>)
+22:                 <span class="ruby-identifier">in_cats</span> = <span class="ruby-keyword kw">true</span>
+23:               <span class="ruby-keyword kw">else</span>
+24:                 <span class="ruby-keyword kw">if</span> (<span class="ruby-identifier">stripped</span>.<span class="ruby-identifier">match</span>(<span class="ruby-regexp re">/^!/</span>)) <span class="ruby-operator">&amp;&amp;</span> (<span class="ruby-identifier">stripped</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">&gt;</span> <span class="ruby-value">1</span>)
+25:                   <span class="ruby-identifier">in_cats</span> = <span class="ruby-keyword kw">false</span>
+26:                 <span class="ruby-keyword kw">else</span>
+27:                   <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">in_cats</span>
+28:                     <span class="ruby-keyword kw">if</span> (<span class="ruby-identifier">stripped</span>.<span class="ruby-identifier">match</span>(<span class="ruby-regexp re">/^N/</span>))
+29:                       <span class="ruby-identifier">categories</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">line_value</span>(<span class="ruby-identifier">stripped</span>)
+30:                     <span class="ruby-keyword kw">end</span>
+31:                   <span class="ruby-keyword kw">end</span>
+32:                 <span class="ruby-keyword kw">end</span>
+33:               <span class="ruby-keyword kw">end</span>
+34:             <span class="ruby-keyword kw">end</span>
+35:             <span class="ruby-identifier">file</span>.<span class="ruby-identifier">close</span> <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">file</span>
+36:           <span class="ruby-keyword kw">rescue</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">err</span>
+37:             <span class="ruby-identifier">file</span>.<span class="ruby-identifier">close</span> <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">file</span>
+38:             <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;Exception: #{err.class.name} #{err.message} #{err.inspect}&quot;</span>
+39:           <span class="ruby-keyword kw">end</span> 
+40:         }
+41:       <span class="ruby-keyword kw">end</span>
+42:       <span class="ruby-identifier">categories</span>.<span class="ruby-identifier">uniq</span>.<span class="ruby-identifier">sort</span>.<span class="ruby-identifier">each_with_index</span> { <span class="ruby-operator">|</span> <span class="ruby-identifier">name</span>, <span class="ruby-identifier">idx</span> <span class="ruby-operator">|</span>
+43:         <span class="ruby-identifier">cat</span> = <span class="ruby-constant">Qiflib</span><span class="ruby-operator">::</span><span class="ruby-constant">Category</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">name</span>.<span class="ruby-identifier">strip</span>)
+44:         <span class="ruby-identifier">csv_lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">cat</span>.<span class="ruby-identifier">to_csv</span>(<span class="ruby-identifier">idx</span>)
+45:       }
+46:       <span class="ruby-identifier">csv_lines</span>
+47:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="catetory-names-to-delim-method" class="method-detail ">
+				<a name="method-c-catetory_names_to_delim"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">catetory_names_to_delim</span><span
+						class="method-args">(files_list)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Return lines in ^-delimited format which contain the list of categories
+within the given Array of filenames.  
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="catetory-names-to-delim-source">
+<pre>
+    <span class="ruby-comment cmt"># File lib/qiflib_util.rb, line 52</span>
+52:     <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">catetory_names_to_delim</span>(<span class="ruby-identifier">files_list</span>)
+53:       <span class="ruby-identifier">delim_lines</span>, <span class="ruby-identifier">csv_lines</span> = [], <span class="ruby-identifier">catetory_names_to_csv</span>(<span class="ruby-identifier">files_list</span>)
+54:       <span class="ruby-identifier">csv_lines</span>.<span class="ruby-identifier">each_with_index</span> { <span class="ruby-operator">|</span> <span class="ruby-identifier">csv_line</span>, <span class="ruby-identifier">idx</span> <span class="ruby-operator">|</span>
+55:         <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">idx</span> <span class="ruby-operator">&gt;</span> <span class="ruby-value">0</span>
+56:           <span class="ruby-identifier">sio</span> = <span class="ruby-constant">StringIO</span>.<span class="ruby-identifier">new</span>
+57:           <span class="ruby-identifier">field_array</span> = <span class="ruby-constant">CSV</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-identifier">csv_line</span>)[<span class="ruby-value">0</span>]
+58:           <span class="ruby-identifier">field_array</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span> <span class="ruby-identifier">field</span> <span class="ruby-operator">|</span>
+59:             <span class="ruby-identifier">sio</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">field</span>
+60:             <span class="ruby-identifier">sio</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'^'</span>
+61:           }
+62:           <span class="ruby-identifier">delim_lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-node">&quot;#{sio.string.strip.chop}\n&quot;</span>
+63:         <span class="ruby-keyword kw">end</span>
+64:       }
+65:       <span class="ruby-identifier">delim_lines</span>
+66:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="generate-sqlite-ddl-method" class="method-detail ">
+				<a name="method-c-generate_sqlite_ddl"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">generate_sqlite_ddl</span><span
+						class="method-args">()</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Return the lines of DDL for a sqlite3 database, with
+&#8216;categories&#8217; and &#8216;transactions&#8217; tables.  The DDL
+will also import the ^-delimited files.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="generate-sqlite-ddl-source">
+<pre>
+     <span class="ruby-comment cmt"># File lib/qiflib_util.rb, line 114</span>
+114:     <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">generate_sqlite_ddl</span>
+115:       <span class="ruby-identifier">lines</span> = []
+116:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">''</span>
+117:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'drop table if exists transactions;'</span> 
+118:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'drop table if exists categories;'</span>
+119:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">''</span>
+120:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'create table transactions('</span>
+121:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  id               integer,'</span>
+122:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  acct_owner       varchar(80),'</span>
+123:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  acct_name        varchar(80),'</span>
+124:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  acct_type        varchar(80),'</span>
+125:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  date             varchar(80),'</span>
+126:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  amount           real,'</span>
+127:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  number           varchar(80),'</span>
+128:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  ibank_n          varchar(80),'</span>
+129:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  cleared          varchar(80),'</span>
+130:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  payee            varchar(80),'</span>
+131:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  category         varchar(80),'</span>
+132:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  memo             varchar(80),'</span>
+133:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  split1_amount    real,'</span>
+134:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  split1_category  varchar(80),'</span>
+135:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  split1_memo      real,'</span>
+136:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  split2_amount    varchar(80),'</span>
+137:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  split2_category  varchar(80),'</span>
+138:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  split2_memo      varchar(80),'</span>
+139:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  split3_amount    real,'</span>
+140:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  split3_category  varchar(80),'</span>
+141:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  split3_memo      varchar(80),'</span>
+142:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  address1         varchar(80),'</span>
+143:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  address2         varchar(80),'</span>
+144:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  address3         varchar(80),'</span>
+145:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  address4         varchar(80),'</span>
+146:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  address5         varchar(80),'</span>
+147:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  address6         varchar(80),'</span>
+148:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  eol_ind          char(1)'</span>
+149:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">');'</span>
+150:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">''</span>
+151:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'create table categories('</span>
+152:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  id       integer,'</span>
+153:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'  name     varchar(80)'</span> 
+154:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">');'</span> 
+155:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">''</span> 
+156:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">&quot;.separator '^'&quot;</span>
+157:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">''</span>
+158:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'.import qiflib_transactions.txt transactions'</span>
+159:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'.import qiflib_categories.txt   categories'</span>
+160:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">''</span>  
+161:       <span class="ruby-identifier">lines</span>
+162:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="generate-sqlite-load-script-method" class="method-detail ">
+				<a name="method-c-generate_sqlite_load_script"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">generate_sqlite_load_script</span><span
+						class="method-args">(db_name='qiflib.db', ddl_name='qiflib.ddl')</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Return the lines of bash-shell script to load the sqlite3 database via  the
+DDL generated in method &#8216;<a
+href="Util.html#method-c-generate_sqlite_ddl">generate_sqlite_ddl</a>&#8217;.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="generate-sqlite-load-script-source">
+<pre>
+     <span class="ruby-comment cmt"># File lib/qiflib_util.rb, line 167</span>
+167:     <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">generate_sqlite_load_script</span>(<span class="ruby-identifier">db_name</span>=<span class="ruby-value str">'qiflib.db'</span>, <span class="ruby-identifier">ddl_name</span>=<span class="ruby-value str">'qiflib.ddl'</span>)
+168:       <span class="ruby-identifier">lines</span> = []
+169:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'#!/bin/bash'</span>
+170:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">''</span>
+171:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-node">&quot;sqlite3 #{db_name} &lt; #{ddl_name}&quot;</span>
+172:       <span class="ruby-identifier">lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">''</span> 
+173:       <span class="ruby-identifier">lines</span>
+174:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="transactions-to-csv-method" class="method-detail ">
+				<a name="method-c-transactions_to_csv"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">transactions_to_csv</span><span
+						class="method-args">(input_list)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Return lines in CSV format which contain the list of transactions within
+the given input_list Array.  Each Hash within the input_list should contain
+keys :owner, :filename, and :source.  Specify either  the value
+Qiflib::SOURCE_IBANK or Qiflib::SOURCE_QUICKEN for :source.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="transactions-to-csv-source">
+<pre>
+    <span class="ruby-comment cmt"># File lib/qiflib_util.rb, line 73</span>
+73:     <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">transactions_to_csv</span>(<span class="ruby-identifier">input_list</span>)
+74:       <span class="ruby-identifier">transactions</span>, <span class="ruby-identifier">csv_lines</span> = [], []
+75:       <span class="ruby-identifier">csv_lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-constant">Qiflib</span><span class="ruby-operator">::</span><span class="ruby-constant">Transaction</span>.<span class="ruby-identifier">csv_header</span>
+76:       <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">input_list</span>
+77:         <span class="ruby-identifier">input_list</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span> <span class="ruby-identifier">input_hash</span> <span class="ruby-operator">|</span>
+78:           <span class="ruby-identifier">owner</span>    = <span class="ruby-identifier">input_hash</span>[<span class="ruby-value">:owner</span>] 
+79:           <span class="ruby-identifier">filename</span> = <span class="ruby-identifier">input_hash</span>[<span class="ruby-value">:filename</span>]
+80:           <span class="ruby-identifier">source</span>   = <span class="ruby-identifier">input_hash</span>[<span class="ruby-value">:source</span>]
+81:           <span class="ruby-identifier">process_file_for_transactions</span>(<span class="ruby-identifier">owner</span>, <span class="ruby-identifier">filename</span>, <span class="ruby-identifier">source</span>, <span class="ruby-identifier">transactions</span>)
+82:         }
+83:         <span class="ruby-identifier">transactions</span>.<span class="ruby-identifier">each_with_index</span> { <span class="ruby-operator">|</span> <span class="ruby-identifier">tran</span>, <span class="ruby-identifier">idx</span> <span class="ruby-operator">|</span>
+84:           <span class="ruby-identifier">csv_lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">tran</span>.<span class="ruby-identifier">to_csv</span>(<span class="ruby-identifier">idx</span>)
+85:         }
+86:       <span class="ruby-keyword kw">end</span>
+87:       <span class="ruby-identifier">csv_lines</span>
+88:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="transactions-to-delim-method" class="method-detail ">
+				<a name="method-c-transactions_to_delim"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">transactions_to_delim</span><span
+						class="method-args">(input_list)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					<p>
+Return lines in ^-delimited format which contain the list of transactions
+within the given input_list Array.  Each Hash within the input_list should
+contain keys :owner, :filename, and :source.  Specify either  the value
+Qiflib::SOURCE_IBANK or Qiflib::SOURCE_QUICKEN for :source.
+</p>
+					
+
+					
+					<div class="method-source-code"
+						id="transactions-to-delim-source">
+<pre>
+     <span class="ruby-comment cmt"># File lib/qiflib_util.rb, line 95</span>
+ 95:     <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">transactions_to_delim</span>(<span class="ruby-identifier">input_list</span>)
+ 96:       <span class="ruby-identifier">delim_lines</span>, <span class="ruby-identifier">csv_lines</span> = [], <span class="ruby-identifier">transactions_to_csv</span>(<span class="ruby-identifier">input_list</span>)
+ 97:       <span class="ruby-identifier">csv_lines</span>.<span class="ruby-identifier">each_with_index</span> { <span class="ruby-operator">|</span> <span class="ruby-identifier">csv_line</span>, <span class="ruby-identifier">idx</span> <span class="ruby-operator">|</span>
+ 98:         <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">idx</span> <span class="ruby-operator">&gt;</span> <span class="ruby-value">0</span>
+ 99:           <span class="ruby-identifier">sio</span> = <span class="ruby-constant">StringIO</span>.<span class="ruby-identifier">new</span>
+100:           <span class="ruby-identifier">field_array</span> = <span class="ruby-constant">CSV</span>.<span class="ruby-identifier">parse</span>(<span class="ruby-identifier">csv_line</span>)[<span class="ruby-value">0</span>]
+101:           <span class="ruby-identifier">field_array</span>.<span class="ruby-identifier">each</span> { <span class="ruby-operator">|</span> <span class="ruby-identifier">field</span> <span class="ruby-operator">|</span>
+102:             <span class="ruby-identifier">sio</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">field</span>
+103:             <span class="ruby-identifier">sio</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-value str">'^'</span>
+104:           }
+105:           <span class="ruby-identifier">delim_lines</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-node">&quot;#{sio.string.strip.chop}\n&quot;</span>
+106:         <span class="ruby-keyword kw">end</span>
+107:       }
+108:       <span class="ruby-identifier">delim_lines</span>
+109:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+		</div>
+	
+		<div id="private-class-method-details" class="method-section section">
+			<h3 class="section-header">Private Class Methods</h3>
+
+		
+			<div id="line-value-method" class="method-detail ">
+				<a name="method-c-line_value"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">line_value</span><span
+						class="method-args">(s)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					
+					
+
+					
+					<div class="method-source-code"
+						id="line-value-source">
+<pre>
+     <span class="ruby-comment cmt"># File lib/qiflib_util.rb, line 224</span>
+224:     <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">line_value</span>(<span class="ruby-identifier">s</span>)
+225:       <span class="ruby-keyword kw">return</span> <span class="ruby-value str">''</span> <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">s</span>.<span class="ruby-identifier">nil?</span> <span class="ruby-operator">||</span> <span class="ruby-identifier">s</span>.<span class="ruby-identifier">size</span> <span class="ruby-operator">&lt;</span> <span class="ruby-value">1</span>
+226:       <span class="ruby-identifier">s</span>[<span class="ruby-value">1</span>, <span class="ruby-identifier">s</span>.<span class="ruby-identifier">size</span>].<span class="ruby-identifier">strip</span>
+227:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+			<div id="process-file-for-transactions-method" class="method-detail ">
+				<a name="method-c-process_file_for_transactions"></a>
+
+				<div class="method-heading">
+				
+					<span class="method-name">process_file_for_transactions</span><span
+						class="method-args">(owner, filename, source, transactions)</span>
+					<span class="method-click-advice">click to toggle source</span>
+				
+				</div>
+
+				<div class="method-description">
+					
+					
+					
+
+					
+					<div class="method-source-code"
+						id="process-file-for-transactions-source">
+<pre>
+     <span class="ruby-comment cmt"># File lib/qiflib_util.rb, line 178</span>
+178:     <span class="ruby-keyword kw">def</span> <span class="ruby-keyword kw">self</span>.<span class="ruby-identifier">process_file_for_transactions</span>(<span class="ruby-identifier">owner</span>, <span class="ruby-identifier">filename</span>, <span class="ruby-identifier">source</span>, <span class="ruby-identifier">transactions</span>)
+179:       <span class="ruby-keyword kw">begin</span>
+180:         <span class="ruby-identifier">file</span> = <span class="ruby-constant">File</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">filename</span>, <span class="ruby-value str">'r'</span>)
+181:         <span class="ruby-identifier">in_acct_header</span>, <span class="ruby-identifier">in_type_header</span>, <span class="ruby-identifier">acct_name</span>, <span class="ruby-identifier">acct_type</span> = <span class="ruby-keyword kw">false</span>, <span class="ruby-keyword kw">false</span>, <span class="ruby-value str">'?'</span>, <span class="ruby-value str">'?'</span>
+182:         <span class="ruby-identifier">current_tran</span> = <span class="ruby-constant">Qiflib</span><span class="ruby-operator">::</span><span class="ruby-constant">Transaction</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">owner</span>, <span class="ruby-identifier">acct_name</span>, <span class="ruby-identifier">acct_type</span>, <span class="ruby-identifier">source</span>)
+183:         <span class="ruby-identifier">line_number</span> = <span class="ruby-value">0</span>
+184:         <span class="ruby-keyword kw">while</span> (<span class="ruby-identifier">line</span> = <span class="ruby-identifier">file</span>.<span class="ruby-identifier">gets</span>)
+185:           <span class="ruby-identifier">line_number</span> = <span class="ruby-identifier">line_number</span> <span class="ruby-operator">+</span> <span class="ruby-value">1</span>
+186:           <span class="ruby-identifier">stripped</span> = <span class="ruby-identifier">line</span>.<span class="ruby-identifier">strip</span>
+187:           <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">stripped</span>.<span class="ruby-identifier">match</span>(<span class="ruby-regexp re">/^!Account/</span>)
+188:             <span class="ruby-identifier">in_acct_header</span> = <span class="ruby-keyword kw">true</span> 
+189:           <span class="ruby-keyword kw">elsif</span> <span class="ruby-identifier">stripped</span>.<span class="ruby-identifier">match</span>(<span class="ruby-regexp re">/^!Type/</span>)
+190:             <span class="ruby-identifier">in_type_header</span> = <span class="ruby-keyword kw">true</span> 
+191:           <span class="ruby-keyword kw">else</span>
+192:             <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">in_acct_header</span>
+193:               <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">stripped</span>.<span class="ruby-identifier">match</span>(<span class="ruby-regexp re">/^N/</span>)
+194:                 <span class="ruby-identifier">acct_name</span> = <span class="ruby-identifier">line_value</span>(<span class="ruby-identifier">stripped</span>)
+195:                 <span class="ruby-identifier">current_tran</span>.<span class="ruby-identifier">acct_name</span> = <span class="ruby-identifier">acct_name</span>
+196:               <span class="ruby-keyword kw">elsif</span> <span class="ruby-identifier">stripped</span>.<span class="ruby-identifier">match</span>(<span class="ruby-regexp re">/^T/</span>)
+197:                 <span class="ruby-identifier">acct_type</span> = <span class="ruby-identifier">line_value</span>(<span class="ruby-identifier">stripped</span>) 
+198:                 <span class="ruby-identifier">current_tran</span>.<span class="ruby-identifier">acct_type</span> = <span class="ruby-identifier">acct_type</span>
+199:               <span class="ruby-keyword kw">elsif</span> <span class="ruby-identifier">stripped</span> <span class="ruby-operator">==</span> <span class="ruby-value str">'^'</span>
+200:                 <span class="ruby-identifier">in_acct_header</span> = <span class="ruby-keyword kw">false</span>
+201:               <span class="ruby-keyword kw">end</span>
+202:             <span class="ruby-keyword kw">elsif</span> <span class="ruby-identifier">in_type_header</span>
+203:               <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">stripped</span> <span class="ruby-operator">==</span> <span class="ruby-value str">'^'</span>
+204:                 <span class="ruby-identifier">in_type_header</span> = <span class="ruby-keyword kw">false</span>
+205:               <span class="ruby-keyword kw">end</span> 
+206:             <span class="ruby-keyword kw">else</span>
+207:               <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">stripped</span> <span class="ruby-operator">==</span> <span class="ruby-value str">'^'</span>
+208:                 <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">current_tran</span>.<span class="ruby-identifier">valid?</span>
+209:                   <span class="ruby-identifier">transactions</span> <span class="ruby-operator">&lt;&lt;</span> <span class="ruby-identifier">current_tran</span>
+210:                 <span class="ruby-keyword kw">end</span>
+211:                 <span class="ruby-identifier">current_tran</span> = <span class="ruby-constant">Qiflib</span><span class="ruby-operator">::</span><span class="ruby-constant">Transaction</span>.<span class="ruby-identifier">new</span>(<span class="ruby-identifier">owner</span>, <span class="ruby-identifier">acct_name</span>, <span class="ruby-identifier">acct_type</span>, <span class="ruby-identifier">source</span>)
+212:               <span class="ruby-keyword kw">else</span>
+213:                 <span class="ruby-identifier">current_tran</span>.<span class="ruby-identifier">add_line</span>(<span class="ruby-identifier">stripped</span>)
+214:               <span class="ruby-keyword kw">end</span>
+215:             <span class="ruby-keyword kw">end</span>
+216:           <span class="ruby-keyword kw">end</span>
+217:         <span class="ruby-keyword kw">end</span>
+218:         <span class="ruby-identifier">file</span>.<span class="ruby-identifier">close</span> <span class="ruby-keyword kw">if</span> <span class="ruby-identifier">file</span>
+219:       <span class="ruby-keyword kw">rescue</span> =<span class="ruby-operator">&gt;</span> <span class="ruby-identifier">err</span>
+220:         <span class="ruby-identifier">puts</span> <span class="ruby-node">&quot;Exception: #{err.class.name} #{err.message} #{err.inspect}&quot;</span>
+221:       <span class="ruby-keyword kw">end</span> 
+222:     <span class="ruby-keyword kw">end</span></pre>
+					</div>
+					
+				</div>
+
+				
+
+				
+			</div>
+
+		
+		</div>
+	
+
+	</div>
+
+
+	<div id="rdoc-debugging-section-dump" class="debugging-section">
+	
+		<p>Disabled; run with --debug to generate this.</p>
+	
+	</div>
+
+	<div id="validator-badges">
+		<p><small><a href="http://validator.w3.org/check/referer">[Validate]</a></small></p>
+		<p><small>Generated with the <a href="http://deveiate.org/projects/Darkfish-Rdoc/">Darkfish
+			Rdoc Generator</a> 1.1.6</small>.</p>
+	</div>
+
+</body>
+</html>
+

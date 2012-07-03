@@ -1,0 +1,11 @@
+= Gooby = Google APIs + Ruby 
+
+Gooby is a set of Ruby code to assist you in creating Google Maps (html), 
+and Google Earth maps (kml), from data exported from your Garmin GPS devices.
+
+The typical uses of Gooby are to create maps of your running, cycling, or
+hiking events, though Gooby is suitable for mapping any outdoor activity.
+
+Gooby version 2.0.0 is available from RubyForge at http://rubyforge.org/frs/?group_id=3083 
+
+Coming soon; Gooby version 3.0, on GitHub!
