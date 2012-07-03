@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="bookid">
+  <metadata>
+    <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/" id="bookid">125</dc:identifier>
+    <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Fun_with_Latin</dc:title>
+    <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">Copyright 2011 Chris Joakim</dc:rights>
+    <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Chris Joakim</dc:publisher>
+    <dc:subject xmlns:dc="http://purl.org/dc/elements/1.1/">Latin</dc:subject>
+    <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">2011-05-07</dc:date>
+    <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Example ePub-format ebook.</dc:description>
+    <dc:creator
+        xmlns:dc="http://purl.org/dc/elements/1.1/" 
+        xmlns:opf="http://www.idpf.org/2007/opf" 
+        opf:file-as="Chris Joakim">Chris Joakim</dc:creator>
+    <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en</dc:language>
+    <meta name="cover" content="cover-image"/>
+  </metadata>
+  <manifest>
+    <item id="ncxtoc" media-type="application/x-dtbncx+xml" href="toc.ncx"/>
+    <item id="cover"  media-type="application/xhtml+xml" href="book_cover.html"/>
+    <item id="cover-image" href="epub_logo.jpeg" media-type="image/jpeg"/>
+    <item id="book_css" href="book.css" media-type="text/css"/>
+    <item id="chapter_01_html" href="chapter_01.html" media-type="application/xhtml+xml"/>
+    <item id="chapter_02_html" href="chapter_02.html" media-type="application/xhtml+xml"/>
+    <item id="chapter_03_html" href="chapter_03.html" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncxtoc">
+    <itemref idref="cover" linear="yes"/>
+    <itemref idref="chapter_01_html" />
+    <itemref idref="chapter_02_html" />
+    <itemref idref="chapter_03_html" />
+  </spine>
+  <guide>
+    <reference href="book_cover.html" type="cover" title="Cover"/>
+  </guide>
+</package>

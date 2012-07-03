@@ -1,0 +1,12 @@
+h1,h2,h3,h4 {
+  font-family: serif;
+  color:       blue;
+}
+
+img {
+  max-width:   90%;
+}
+
+code {
+  font-size:   0.6em;
+}

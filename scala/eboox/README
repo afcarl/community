@@ -1,0 +1,125 @@
+= eboox
+
+"eboox" is an ebook generator written in the scala programming language.  
+Its purpose is to allow you to generate your own ebooks, with your content, 
+for your reader or tablet devices.  eboox currently supports the "epub" format, 
+allowing you to create ebooks for the iPad.
+
+An epub file is essentially just a zip file, in a certain specific format, with
+the suffix ".epub" instead of ".zip".  Both "content" and "metadata" files are
+contained within an epub file.  The content is XHTML, CSS, and certain common
+image types.  The metadata files are in XML format.  They primarily list the
+contents of the file, as well as the table of contents of the ebook.
+
+Using eboox, you still have to create your own content files.  However, eboox
+will generate the complex and correlated metadata files for you from a simple
+configuration file (config.txt) that is in the root directory of your ebook
+content.  eboox will also generate a packaging script that you can run to 
+create the *.epub file for your book.
+
+The typical and intended use case for eboox is to allow you to create a reference
+ebook from your personal notes of any kind - technical topics, travel plans, cookbooks,
+etc.
+
+
+= General
+
+Author:    Chris Joakim <chris@joakimsoftware.com>
+Copyright: Copyright 2012 by Chris Joakim.
+License:   eboox is available under GNU General Public License version 3.
+           See http://www.gnu.org/licenses/gpl-3.0.html
+
+== Download
+
+The eboox source code and sample files are available on github.
+
+git clone git@github.com:cjoakim/eboox.git
+
+
+== Installation
+
+eboox is written in the scala programming language. It requires that Java
+version 1.6 or above (see http://www.java.com/), and Scala 2.8.1 or above
+(see http://www.scala-lang.org/) are installed on your computer.
+
+After installing Java and Scala, next create a directory on your computer
+for your ebook.  Use the git program, as shown above, to download the
+eboox code to your new directory.  See http://git-scm.com/ if you don't
+already have git installed on your computer.
+
+For example:
+  cd ~
+  mkdir books
+  cd books
+  git clone git@github.com:cjoakim/eboox.git
+
+The maven (mvn) tool is required to build/compile the eboox code.
+See http://maven.apache.org/ for download and usage instructions.
+To build the eboox code, run the following commands:
+
+  mvn clean install
+
+The first time you run this command, you'll probably see very verbose
+output which displays the files that maven is downloading and caching.
+Ultimately, near the end of the maven output, you should see the lines:
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+
+Finally, it is recommended that you use the "epubcheck" program to
+validate your generated epub files.  See http://code.google.com/p/epubcheck/.
+
+
+== Usage
+
+First, be sure that you have installed all required software, and have
+compiled the eboox project with "mvn clean install" as described above.
+
+Next, create a directory on your computer which contains the "raw" content
+for your ebook.  This directory should have a similar structure to the
+example "fun_with_latin_book" directory which comes with the eboox codebase.
+
+Your book directory MUST contain a "config.txt" file which contains the
+various configuration parameters for your ebook.
+
+Then edit the "eboox.sh" (unix/linux/mac) or "eboox.bat" (windows).  See the
+two comments in this file, and change the location of your scala lib directory, 
+and also the command line value of the config.txt file for your ebook.
+Then run the eboox.sh or eboox.bat file.
+
+You'll see output like the following.  It will generate the necessary 
+metadata files for your ebook, as well as a packaging script.
+
+
+
+== Online Resources
+
+*  http://en.wikipedia.org/wiki/EPUB
+
+*  http://idpf.org/
+
+*  http://code.google.com/p/epubcheck/
+
+
+== This Release - version 1.0.0
+
+*  Support for epub generation.
+
+
+== Road Map / TODO List
+
+*  Support for the mobipocket format is planned for a future release, in order
+   to generate ebooks for the Kindle.
+
+
+== Support
+
+*  email chris@joakimsoftware.com for regarding questions and enhancements.
+
+
+== Warranty
+
+This software is provided "as is" and without any express or implied warranties, 
+including, without limitation, the implied warranties of merchantibility and 
+fitness for a particular purpose.

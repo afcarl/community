@@ -1,0 +1,39 @@
+
+# Configuration file for eboox - modify as necessary for your ebook.
+# See the default values in the README file.
+
+# Chris Joakim, 2011/05/07
+
+-book_author        Chris Joakim
+-book_content_dir   OEBPS
+-book_cover_file    book_cover.html
+-book_cover_image   epub_logo.jpeg
+-book_creator       Chris Joakim
+-book_date          2011-05-07
+-book_description   Example ePub-format ebook.
+-book_id            125
+-book_language      en
+-book_publisher     Chris Joakim
+-book_rights        Copyright 2011 Chris Joakim
+-book_subject       Latin
+-book_title         Fun with Latin
+-book_version       0.5.0
+
+-media_type.css     text/css
+-media_type.html    application/xhtml+xml
+-media_type.default application/xhtml+xml
+-media_type.ncx     application/x-dtbncx+xml
+-media_type.gif     image/gif
+-media_type.jpg     image/jpeg
+-media_type.jpeg    image/jpeg
+-media_type.png     image/png
+-media_type.otf     font/opentype
+
+-nav_label_chapter_01.html Lorem ipsum
+-nav_label_chapter_02.html de Finibus Bonorum et Malorum
+-nav_label_chapter_03.html Latin Phrases: Beginning
+
+# Excludes allow you to keep files in your directory structure
+# yet exclude them from the ebook.
+-exclude ignore_me.html
+-exclude no_way.html

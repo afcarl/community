@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="cover" content="cover"/>
+    <meta name="dtb:uid" content="125"/>
+    <meta name="dtb:depth" content="-1"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber"  content="0"/>
+  </head>
+  <docTitle>
+    <text>Fun_with_Latin</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navpoint-1" playOrder="1">
+      <navLabel>
+        <text>Book cover</text>
+      </navLabel>
+      <content src="book_cover.html"/>
+    </navPoint>
+    <navPoint id="navpoint-chapter_01_html" playOrder="2">
+      <navLabel>
+        <text>Lorem ipsum</text>
+      </navLabel>
+      <content src="chapter_01.html"/>
+    </navPoint>
+    <navPoint id="navpoint-chapter_02_html" playOrder="3">
+      <navLabel>
+        <text>de Finibus Bonorum et Malorum</text>
+      </navLabel>
+      <content src="chapter_02.html"/>
+    </navPoint>
+    <navPoint id="navpoint-chapter_03_html" playOrder="4">
+      <navLabel>
+        <text>Latin Phrases: Beginning</text>
+      </navLabel>
+      <content src="chapter_03.html"/>
+    </navPoint>
+
+  </navMap>
+</ncx>
