@@ -1,4 +1,5 @@
 
+coffee/m26/node_modules/
 scala/eboox/target/classes/*
 scala/eboox/target/test-classes/*
 txt_merged.txt
