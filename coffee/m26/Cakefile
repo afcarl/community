@@ -1,0 +1,32 @@
+
+fs      = require 'fs'
+colors  = require 'colors'
+{exec}  = require 'child_process'
+
+today = ->
+  Date()
+
+epoch = ->
+  Date.now()
+
+say = ->
+  # For those who like audio confirmation that the cake-triggered compile actually ran.
+  exec 'say -v Vicki "cake"'
+
+task 'watch', 'Watch cs/ and compile & copy on changes', ->
+  watcher = exec "coffee -wco js cs"
+  watcher.stderr.on 'data', (data) ->
+    console.error data
+  watcher.stdout.on 'data', (data) ->
+    if /compiled/.test data
+      process.stdout.write data.green
+    else
+      process.stderr.write data.red
+    say()
+
+task 'build', 'Build project with the coffee command', ->
+  exec "coffee -co js cs", (err, stdout, stderr) ->
+    if err
+      console.error "Error encountered while compiling CoffeeScript"
+      console.error stderr
+      process.exit  1
