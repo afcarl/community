@@ -1,0 +1,3 @@
+source 'http://rubygems.org'
+
+# Only ruby 1.9.3 and its standard libraries are used in this utility; no gems!

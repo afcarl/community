@@ -1,0 +1,8 @@
+---
+  search_url:      http://search.twitter.com/search.json
+  user_lookup_url: http://api.twitter.com/1/users/lookup.json?consumer_key=
+  followers_url:   https://api.twitter.com/1/followers/ids.json?cursor=
+  user_id_lookup_url: http://api.twitter.com/1/users/lookup.json?user_id=
+  consumer_key:    yourkey
+  consumer_secret: yoursecret
+  users_file:      data/twitter_users.csv
