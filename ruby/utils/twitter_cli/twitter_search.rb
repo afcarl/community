@@ -3,54 +3,42 @@ require 'json'
 require 'net/http'
 require 'yaml'
 
-=begin
-
-Code Project
-
-Using the Twitter api construct a command line twitter search utility.
-
-We should be able to cd into the project folder and run:
-$ twitter_search "some search phrase"
-
-The output should be the total count of the search results with a list of the
-first 25 results outputted to STDOUT. After each result, you should also output 
-the twitter user for that result and a link to that user's profile.
-
-You cannot use the rails framework or any twitter api gems.
-
-You have 48 hours to push this project to your github account or you may zip 
-the project up and email to us.
-
-Do not create a gem out of this utility. It can just be a simple set of utility
-scripts enclosed in a single folder (a gem like structure is ok, but not a full gem).
-
-=end
-
 class TwitterSearch
 
   attr_accessor :config
 
   def initialize
-    @config = load_config
-    if true
-      puts "ARGV:      #{ARGV.inspect}"
-      puts "config:    #{config.inspect}"
-      puts "verbose?:  #{verbose?}"
-      puts "search_term: #{search_term}"
-    end
-
-    if config
-      case function
-        when 'search'
-          exec_search
-        when 'user_name'
-          exec_user_name_query
-        when 'user_id'
-          exec_user_id_query
-        when 'followers'
-          exec_followers_query
+    if ARGV.size == 0
+      display_usage
+    else
+      @config = load_config
+      if config
+        case function
+          when 'search'
+            exec_search
+          when 'user_name'
+            exec_user_name_query
+          when 'user_id'
+            exec_user_id_query
+          when 'followers'
+            exec_followers_query
+        end
       end
     end
+  end
+
+  def display_usage
+    puts ""
+    puts "Error: Invalid command line arguments."
+    puts ""
+    puts "Examples:"
+    puts "  ./twitter_search bradley wiggins      # text search for the cyclist bradley wiggins"
+    puts "  ./twitter_search bradley wiggins --v  # same as above, but in verbose mode"
+    puts "  ./twitter_search \"ham & eggs\"         # double-quote search terms with ampersands"
+    puts "  ./twitter_search cjoakim --uname      # username search"
+    puts "  ./twitter_search 17804871 --uid       # user ID search"
+    puts "  ./twitter_search cjoakim --followers  # list the followers of the given username"
+    puts ""
   end
 
   def load_config
@@ -104,18 +92,19 @@ class TwitterSearch
   def user_id_lookup_url
     config['user_id_lookup_url'].strip
   end
-  
+
   def followers_url
     config['followers_url'].strip
-  end 
+  end
 
   def exec_search
     begin
-      params = {'q' => search_term }
+      params = {'q' => search_term, 'rpp' => '25' }
       raw = http_get(search_url, params)
       puts "raw response: #{raw}" if verbose?
       obj = JSON.parse(raw)
-      puts to_pretty_json(obj)
+      log_pretty_json(obj) if verbose?
+      report(obj)
     rescue Exception => e
       handle_exception(e)
     end
@@ -127,7 +116,7 @@ class TwitterSearch
       raw = http_get(user_lookup_url, params)
       puts "raw response: #{raw}" if verbose?
       obj = JSON.parse(raw)
-      puts to_pretty_json(obj)
+      log_pretty_json(obj) if verbose?
     rescue Exception => e
       handle_exception(e)
     end
@@ -139,33 +128,23 @@ class TwitterSearch
       raw = http_get(user_id_lookup_url, params)
       puts "raw response: #{raw}" if verbose?
       obj = JSON.parse(raw)
-      puts to_pretty_json(obj)
+      log_pretty_json(obj) if verbose?
     rescue Exception => e
       handle_exception(e)
     end
   end
 
   def exec_followers_query
-    # return if config.nil?
-    # # curl -v 'http://api.twitter.com/1/users/lookup.format?user_id='
-    # begin
-    #   url = "#{@followers_url}#{cursor}&screen_name=#{URI.escape(screen_name)}"
-    # rescue Exception => e
-    #   handle_exception('followers_query', e)
-    # end
-    
     begin
       params = {'screen_name' => search_term }
       raw = http_get(followers_url, params)
       puts "raw response: #{raw}" if verbose?
       obj = JSON.parse(raw)
-      puts to_pretty_json(obj)
+      log_pretty_json(obj) if verbose?
     rescue Exception => e
       handle_exception(e)
-    end 
+    end
   end
-
-  private
 
   def http_get(url, params={})
     begin
@@ -204,26 +183,17 @@ class TwitterSearch
     puts to_pretty_json(obj)
   end
 
-  def parse_json(json_str)
-    (json_str) ? JSON.parse(json_str) : nil
-  end
-
-  def plus_escape(desc)
-    desc.tr(' ','+')
-  end
-
-  def write_file(out_name, content)
-    out = File.new out_name, "w+"
-    out.write content
-    out.flush
-    out.close
-    puts "file written: #{out_name}"
-  end
-
-  def write_lines(out_name, lines)
-    sio = StringIO.new
-    lines.each { | line | sio << "#{line}\n" }
-    write_file(out_name, sio.string)
+  def report(obj)
+    results = obj['results']
+    if results
+      results.each_with_index { | result, idx |
+        puts ""
+        user = result['from_user']
+        profile_url = "https://twitter.com/#{user}"
+        log_pretty_json(result)
+        puts "result number #{idx+1}, from #{user}, profile url #{profile_url}"
+      }
+    end
   end
 
 end

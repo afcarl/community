@@ -3,5 +3,3 @@
   user_lookup_url:    http://api.twitter.com/1/users/lookup.json
   user_id_lookup_url: http://api.twitter.com/1/users/lookup.json
   followers_url:      http://api.twitter.com/1/followers/ids.json
-  consumer_key:       yourkey
-  consumer_secret:    yoursecret
