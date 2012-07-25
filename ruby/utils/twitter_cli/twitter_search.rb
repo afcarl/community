@@ -32,12 +32,12 @@ class TwitterSearch
     puts "Error: Invalid command line arguments."
     puts ""
     puts "Examples:"
-    puts "  ./twitter_search bradley wiggins      # text search for the cyclist bradley wiggins"
-    puts "  ./twitter_search bradley wiggins --v  # same as above, but in verbose mode"
-    puts "  ./twitter_search \"ham & eggs\"         # double-quote search terms with ampersands"
-    puts "  ./twitter_search cjoakim --uname      # username search"
-    puts "  ./twitter_search 17804871 --uid       # user ID search"
-    puts "  ./twitter_search cjoakim --followers  # list the followers of the given username"
+    puts "  ./twitter_search bradley wiggins          # text search for the cyclist bradley wiggins"
+    puts "  ./twitter_search bradley wiggins --v      # same as above, but in verbose mode"
+    puts "  ./twitter_search \"ham & eggs\"             # double-quote search terms with ampersands"
+    puts "  ./twitter_search cjoakim --uname --v      # username search"
+    puts "  ./twitter_search 17804871 --uid --v       # user ID search"
+    puts "  ./twitter_search cjoakim --followers --v  # list the followers of the given username"
     puts ""
   end
 
