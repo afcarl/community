@@ -1,0 +1,278 @@
+0001_0001 | UNCAT | wall street climbs percent as bernanke comments support - http://news.yahoo.com/rss/stock-markets 
+0001_0002 | UNCAT | nigeria to raise pension fund stock market limit - http://news.yahoo.com/rss/stock-markets 
+0001_0003 | UNCAT | wall street rallies after bernanke comments - http://news.yahoo.com/rss/stock-markets 
+0001_0004 | UNCAT | us stock futures rise to begin the week - http://news.yahoo.com/rss/stock-markets 
+0001_0005 | UNCAT | lastminute shopping could lift stocks - http://news.yahoo.com/rss/stock-markets 
+0001_0006 | UNCAT | bay streeta cautious take on rallying canada insurers - http://news.yahoo.com/rss/stock-markets 
+0001_0007 | UNCAT | wall street week ahead lastminute shopping could lift stocks - http://news.yahoo.com/rss/stock-markets 
+0001_0008 | UNCAT | apples devoted shareholders get rich and hang on - http://news.yahoo.com/rss/stock-markets 
+0001_0009 | UNCAT | pepsico ceo compensation up percent to 17 million - http://news.yahoo.com/rss/stock-markets 
+0001_0010 | UNCAT | bats cancels its ipo following technical glitches - http://news.yahoo.com/rss/stock-markets 
+0001_0011 | UNCAT | wall street week ahead lastminute shopping could lift stocks - http://news.yahoo.com/rss/stock-markets 
+0001_0012 | UNCAT | earnings schedule for week of 3262012 - http://news.yahoo.com/rss/stock-markets 
+0001_0013 | UNCAT | bats withdraws ipo after technical glitches - http://news.yahoo.com/rss/stock-markets 
+0001_0014 | UNCAT | bats halts orders after stock plummets to cents - http://news.yahoo.com/rss/stock-markets 
+0001_0015 | UNCAT | safrica stocks end flat eyes on mpc next week - http://news.yahoo.com/rss/stock-markets 
+0001_0016 | UNCAT | world stocks mixed ahead of us housing data - http://news.yahoo.com/rss/stock-markets 
+0001_0017 | UNCAT | securities watchdog probes highfrequency trading firms report - http://news.yahoo.com/rss/stock-markets 
+0001_0018 | UNCAT | layne says probe finds evidence of improper payments - http://news.yahoo.com/rss/stock-markets 
+0001_0019 | UNCAT | amcs mad man sees future in staying on script - http://news.yahoo.com/rss/stock-markets 
+0001_0020 | UNCAT | morgan stanley directors win pay lawsuit dismissal - http://news.yahoo.com/rss/stock-markets 
+0001_0021 | UNCAT | wall street retreats but bull market still alive - http://news.yahoo.com/rss/stock-markets 
+0001_0022 | UNCAT | wall streets face in washington to step down - http://news.yahoo.com/rss/stock-markets 
+0001_0023 | UNCAT | insightthe wall street gold rush in foreclosed homes - http://news.yahoo.com/rss/stock-markets 
+0001_0024 | UNCAT | exacttarget rises in 1st day trading on the nyse - http://news.yahoo.com/rss/stock-markets 
+0001_0025 | UNCAT | nyse euronext wont fight deutsche boerse ruling - http://news.yahoo.com/rss/stock-markets 
+0002_0001 | UNCAT | ansi to host exploratory meeting for energy efficiency standards panel to support clean energy economy - http://news.yahoo.com/rss/energy 
+0002_0002 | UNCAT | salt lake community college inherits the wind - http://news.yahoo.com/rss/energy 
+0002_0003 | UNCAT | gas prices already closing in on last years high - http://news.yahoo.com/rss/energy 
+0002_0004 | UNCAT | mass gas prices up another cents - http://news.yahoo.com/rss/energy 
+0002_0005 | UNCAT | aaa mich gas prices up about cent in past week - http://news.yahoo.com/rss/energy 
+0002_0006 | UNCAT | maine gas prices up cents - http://news.yahoo.com/rss/energy 
+0002_0007 | UNCAT | aaa ohio gas prices drop after weeks of jumps - http://news.yahoo.com/rss/energy 
+0002_0008 | UNCAT | new hampshire gas prices climbing - http://news.yahoo.com/rss/energy 
+0002_0009 | UNCAT | york regions innovation centre venturelab looks to meet local technology entrepreneurs - http://news.yahoo.com/rss/energy 
+0002_0010 | UNCAT | california iso recognized by computerworld as 2012 computerworld honors laureate - http://news.yahoo.com/rss/energy 
+0002_0011 | UNCAT | have gas prices peaked morning business memo - http://news.yahoo.com/rss/energy 
+0002_0012 | UNCAT | analysis gas price spike revives fight over energy taxes - http://news.yahoo.com/rss/energy 
+0002_0013 | UNCAT | high gas prices need to be met with new technologies - http://news.yahoo.com/rss/energy 
+0002_0014 | UNCAT | plouffe doesnt rule out tapping oil reserve - http://news.yahoo.com/rss/energy 
+0002_0015 | UNCAT | sherrod browns oil speculation bill wont reduce gas prices - http://news.yahoo.com/rss/energy 
+0002_0016 | UNCAT | judge epa overstepped authority in revoking coal mining permit - http://news.yahoo.com/rss/energy 
+0002_0017 | UNCAT | preti flaherty jury verdict listed among top 100 verdicts of 2011 by the national law journal - http://news.yahoo.com/rss/energy 
+0002_0018 | UNCAT | wind energy update end of warranty requirements for wind energy - http://news.yahoo.com/rss/energy 
+0002_0019 | UNCAT | salt lake residents sue chevron over oil spills - http://news.yahoo.com/rss/energy 
+0002_0020 | UNCAT | cnnmoney caught changing report on ‘green’ jobs numbers casting them in more positive light - http://news.yahoo.com/rss/energy 
+0002_0021 | UNCAT | brazil may shift jurisdiction of chevron case - http://news.yahoo.com/rss/energy 
+0002_0022 | UNCAT | judge epa veto of wva mine permit overreached - http://news.yahoo.com/rss/energy 
+0002_0023 | UNCAT | obama promises lower gas prices and defends keystone xl decision - http://news.yahoo.com/rss/energy 
+0002_0024 | UNCAT | pennsylvania department of labor and industry receives national emergency grant for workers affected by refinery closings - http://news.yahoo.com/rss/energy 
+0002_0025 | UNCAT | stuck with high gas prices drivers just pump less - http://news.yahoo.com/rss/energy 
+0002_0026 | UNCAT | judge epa overreached in vetoing wv mine permit - http://news.yahoo.com/rss/energy 
+0002_0027 | UNCAT | feds to provide aid for idled pa refinery workers - http://news.yahoo.com/rss/energy 
+0002_0028 | UNCAT | new wind power guidelines are for the birds - http://news.yahoo.com/rss/energy 
+0002_0029 | UNCAT | nigerians sue shell in london over delta pollution - http://news.yahoo.com/rss/energy 
+0002_0030 | UNCAT | arkansas gas prices up nearly 30 cents since feb - http://news.yahoo.com/rss/energy 
+0002_0031 | UNCAT | genesis energy prices offering at 3080 - http://news.yahoo.com/rss/energy 
+0002_0032 | UNCAT | president obama talks gas prices in oneonone with aaa - http://news.yahoo.com/rss/energy 
+0002_0033 | UNCAT | new mexicans feel pinch of rising gas prices - http://news.yahoo.com/rss/energy 
+0002_0034 | UNCAT | obama’s long game on energy - http://news.yahoo.com/rss/energy 
+0002_0035 | UNCAT | united sovereignty alliance developing constitutional domestic energy policy and encourages the people to take action - http://news.yahoo.com/rss/energy 
+0002_0036 | UNCAT | wealthtrustarizona explains the affects of rising gas prices in arizona - http://news.yahoo.com/rss/energy 
+0002_0037 | UNCAT | brazil oil regulator chevron leak not negligence - http://news.yahoo.com/rss/energy 
+0002_0038 | UNCAT | brazil oil regulator chevron leak not negligence - http://news.yahoo.com/rss/energy 
+0002_0039 | UNCAT | obama concludes tour with campaignstyle pitch for green energy - http://news.yahoo.com/rss/energy 
+0002_0040 | UNCAT | groups seek to force epa to act on power plants - http://news.yahoo.com/rss/energy 
+0003_0001 | UNCAT | us supreme court opens health care reform case - http://news.yahoo.com/rss/health 
+0003_0002 | UNCAT | french medical orders target diet guru pierre dukan - http://news.yahoo.com/rss/health 
+0003_0003 | UNCAT | ebay bans sorbitol sales after italian death - http://news.yahoo.com/rss/health 
+0003_0004 | UNCAT | studies surgery can put diabetes into remission - http://news.yahoo.com/rss/health 
+0003_0005 | UNCAT | us announces deal to ensure medical isotope supply - http://news.yahoo.com/rss/health 
+0003_0006 | UNCAT | dick cheneys transplant reopens debate about age - http://news.yahoo.com/rss/health 
+0003_0007 | UNCAT | ebay blocks sale of sorbitol after death in italy - http://news.yahoo.com/rss/health 
+0003_0008 | UNCAT | psych patient charged with murder after roommate dies - http://news.yahoo.com/rss/health 
+0003_0009 | UNCAT | supreme court unlikely to delay obama healthcare ruling - http://news.yahoo.com/rss/health 
+0003_0010 | UNCAT | myriad gene patent ruling sent back to lower court - http://news.yahoo.com/rss/health 
+0003_0011 | UNCAT | fda adds diabetes memory loss warnings to statins - http://news.yahoo.com/rss/health 
+0003_0012 | UNCAT | weightloss surgery cut blood sugar more than drugs - http://news.yahoo.com/rss/health 
+0003_0013 | UNCAT | analysts debate importance of the individual mandate to healthreform law - http://news.yahoo.com/rss/health 
+0003_0014 | UNCAT | lowdose daily aspirin enough to help heart attack patients study - http://news.yahoo.com/rss/health 
+0003_0015 | UNCAT | dont forget to eat your fruits veggies and popcorn - http://news.yahoo.com/rss/health 
+0003_0016 | UNCAT | legal experts see close win for healthreform law - http://news.yahoo.com/rss/health 
+0003_0017 | UNCAT | medicaid expansion is key part of affordable care act - http://news.yahoo.com/rss/health 
+0003_0018 | UNCAT | supreme court prepares to tackle affordable care act - http://news.yahoo.com/rss/health 
+0003_0019 | UNCAT | freezing secondary breast cancer tumors shows promise - http://news.yahoo.com/rss/health 
+0003_0020 | UNCAT | people with autism may be better at processing information - http://news.yahoo.com/rss/health 
+0003_0021 | UNCAT | bedsharing smoking play role in sudden infant death - http://news.yahoo.com/rss/health 
+0003_0022 | UNCAT | in pharmacies hinders teens access to morningafter pill study - http://news.yahoo.com/rss/health 
+0003_0023 | UNCAT | health highlights march 26 2012 - http://news.yahoo.com/rss/health 
+0003_0024 | UNCAT | ct scans can spot heart trouble fast - http://news.yahoo.com/rss/health 
+0003_0025 | UNCAT | clotbuster drug injection might help some heart attack patients - http://news.yahoo.com/rss/health 
+0003_0026 | UNCAT | obgyn visit good time to screen for heart disease study - http://news.yahoo.com/rss/health 
+0003_0027 | UNCAT | teen girl drivers likelier to use electronic devices study - http://news.yahoo.com/rss/health 
+0003_0028 | UNCAT | weightloss surgeries may beat standard treatments for diabetes - http://news.yahoo.com/rss/health 
+0004_0001 | UNCAT | draw something changes the game quickly for omgpop - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0002 | UNCAT | microsoft raids tackle online crime - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0003 | UNCAT | raw data europe changes tone on telecommunications initiatives - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0004 | UNCAT | senators want employers’ facebook password requests reviewed - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0005 | UNCAT | factual’s gil elbaz wants to gather the data universe - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0006 | UNCAT | the haggler beware of cramming on your cellphone bill the haggler - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0007 | UNCAT | hardy group holds out on smartphones - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0008 | UNCAT | novelties words by the millions sorted by software - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0009 | UNCAT | corner office terry tietzen terry tietzen of edatanetworks on promoting innovation - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0010 | UNCAT | television alex anfanger and dan schimpf of ‘next time on lonny’ - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0011 | UNCAT | us relaxes some restrictions for counterterrorism analysis - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0012 | UNCAT | att accused of improperly billing for service for deaf - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0013 | UNCAT | jobs act wins senate approval - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0014 | UNCAT | bits blog facebook gobbles up patents from ibm - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0015 | UNCAT | bits blog rims blackberry dethroned by apple on its home turf - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0016 | UNCAT | bits is the new ipad screen too good for the web - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0017 | UNCAT | bits blog more data thefts affect individuals verizon report finds - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0018 | UNCAT | bloomberg says social media can hurt governing - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0019 | UNCAT | louis and others take standup to the web - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0020 | UNCAT | dealbook on wall st keeping tight rein on twitter - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0021 | UNCAT | bits blog dealbook zynga buys mobile game maker omgpop - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0022 | UNCAT | bits blog eventbrite moves into mobile payments with credit card reader - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0023 | UNCAT | disruptions at amazon the robot world comes little closer - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0024 | UNCAT | the media equation hashtag activism and its limits - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0025 | UNCAT | state of the art netzero clearwire and other ways to get hot spot to go state of the art - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0026 | UNCAT | news analysis stop texting and leave that parking space - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0027 | UNCAT | app smart review of apps for gardeners and landscapers - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0028 | UNCAT | gadgetwise blog qa going back into time capsule for password reset - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0029 | UNCAT | gadgetwise blog adobes photoshop cs6 is free for now - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0030 | UNCAT | gadgetwise blog app smart extra book apps for young adults - http://feeds.nytimes.com/nyt/rss/Technology 
+0005_0001 | UNCAT | source tebow can pick deal to jets or jaguars - http://sports.espn.go.com/espn/rss/news 
+0005_0002 | UNCAT | sources payton parcells discuss saints job - http://sports.espn.go.com/espn/rss/news 
+0005_0003 | UNCAT | tebow says he sanchez can work together - http://sports.espn.go.com/espn/rss/news 
+0005_0004 | UNCAT | kus robinson highlights aps allamerica team - http://sports.espn.go.com/espn/rss/news 
+0005_0005 | UNCAT | reports ksus martin hired at south carolina - http://sports.espn.go.com/espn/rss/news 
+0005_0006 | UNCAT | colts luck to visit indy for private workout - http://sports.espn.go.com/espn/rss/news 
+0005_0007 | UNCAT | valentine dismisses speculation on rift with gm - http://sports.espn.go.com/espn/rss/news 
+0005_0008 | UNCAT | british bookmakers favor tiger to win masters - http://sports.espn.go.com/espn/rss/news 
+0005_0009 | UNCAT | frustrated kobe gets benched late against griz - http://sports.espn.go.com/espn/rss/news 
+0005_0010 | UNCAT | taylor breaks slump to lead kansas past unc - http://sports.espn.go.com/espn/rss/news 
+0005_0011 | UNCAT | legendary boxing writer bert sugar dies at 75 - http://sports.espn.go.com/espn/rss/news 
+0005_0012 | UNCAT | thunder top heat in meeting of of nbas best - http://sports.espn.go.com/espn/rss/news 
+0005_0013 | UNCAT | jets owner tebow trade football move - http://sports.espn.go.com/espn/rss/news 
+0005_0014 | UNCAT | kentucky runs past baylor on way to final four - http://sports.espn.go.com/espn/rss/news 
+0005_0015 | UNCAT | stewart claims rainshortened race at fontana - http://sports.espn.go.com/espn/rss/news 
+0005_0016 | UNCAT | kstates martin paid his former prep players - http://sports.espn.go.com/espn/rss/news 
+0006_0001 | UNCAT | the druby book distributed and parallel computing with ruby now in print - http://pragprog.com/feed/global 
+0006_0002 | UNCAT | build awesome commandline applications in ruby now in print - http://pragprog.com/feed/global 
+0006_0003 | UNCAT | deploying with jruby now in beta pragpub magazine - http://pragprog.com/feed/global 
+0006_0004 | UNCAT | tmux and technical blogging now in print - http://pragprog.com/feed/global 
+0006_0005 | UNCAT | programming your home automate with arduino android and your computer now in print - http://pragprog.com/feed/global 
+0006_0006 | UNCAT | the developers code now in print - http://pragprog.com/feed/global 
+0006_0007 | UNCAT | new magazine hello android updates - http://pragprog.com/feed/global 
+0006_0008 | UNCAT | the cucumber book in print scripted gui testing updated wcucumber and rspec - http://pragprog.com/feed/global 
+0006_0009 | UNCAT | deploying rails automate deploy scale maintain and sleep at night now in beta - http://pragprog.com/feed/global 
+0006_0010 | UNCAT | web development recipes now in print january magazine - http://pragprog.com/feed/global 
+0007_0001 | UNCAT | axlsx - http://rubyforge.org/export/rss_sfnewreleases.php 
+0007_0002 | UNCAT | rainbows - http://rubyforge.org/export/rss_sfnewreleases.php 
+0007_0003 | UNCAT | rubyfb firebird db access library - http://rubyforge.org/export/rss_sfnewreleases.php 
+0007_0004 | UNCAT | mimetypes - http://rubyforge.org/export/rss_sfnewreleases.php 
+0008_0001 | UNCAT | osgood schlatters disease diagnosis and management - http://www.thesportsphysiotherapist.com/feed/ 
+0008_0002 | UNCAT | patellofemoral pain syndrome can we predict who will get it - http://www.thesportsphysiotherapist.com/feed/ 
+0008_0003 | UNCAT | the power of storytelling in sports physiotherapy - http://www.thesportsphysiotherapist.com/feed/ 
+0008_0004 | UNCAT | how mechanism of injury affects prognosis following hamstring strain - http://www.thesportsphysiotherapist.com/feed/ 
+0008_0005 | UNCAT | pigmented villonodular synovitis of the knee - http://www.thesportsphysiotherapist.com/feed/ 
+0008_0006 | UNCAT | joint line fullness for diagnosing meniscal pathology - http://www.thesportsphysiotherapist.com/feed/ 
+0008_0007 | UNCAT | juvenile osteochondritis dissecans of the knee assessment and management - http://www.thesportsphysiotherapist.com/feed/ 
+0008_0008 | UNCAT | predicting recovery following concussion - http://www.thesportsphysiotherapist.com/feed/ 
+0008_0009 | UNCAT | lumbar spine mobilisation for hamstring strains - http://www.thesportsphysiotherapist.com/feed/ 
+0008_0010 | UNCAT | what makes your sports physiotherapy practice successful - http://www.thesportsphysiotherapist.com/feed/ 
+0009_0001 | UNCAT | publishing in science are industry standards serving researchers clinicians and science - http://feeds.feedburner.com/NPAThinkTank?format=xml 
+0009_0002 | UNCAT | si joint mechanics in manual therapy relevance please - http://feeds.feedburner.com/NPAThinkTank?format=xml 
+0009_0003 | UNCAT | csm 2012 the pauline cerasoli lecture - http://feeds.feedburner.com/NPAThinkTank?format=xml 
+0009_0004 | UNCAT | csm 2012 was thrilling…and cold - http://feeds.feedburner.com/NPAThinkTank?format=xml 
+0009_0005 | UNCAT | csm2012 day programming - http://feeds.feedburner.com/NPAThinkTank?format=xml 
+0009_0006 | UNCAT | csm 2012 chicago edition is here - http://feeds.feedburner.com/NPAThinkTank?format=xml 
+0009_0007 | UNCAT | leveraging technology vi case example acl injury “prevention” - http://feeds.feedburner.com/NPAThinkTank?format=xml 
+0009_0008 | UNCAT | leveraging technology beyond rss to engagement - http://feeds.feedburner.com/NPAThinkTank?format=xml 
+0009_0009 | UNCAT | leveraging technology iv blogs - http://feeds.feedburner.com/NPAThinkTank?format=xml 
+0009_0010 | UNCAT | aaompt 2011 anaheim ca - http://feeds.feedburner.com/NPAThinkTank?format=xml 
+0010_0001 | UNCAT | dem bones skeletal structure and movement function - http://feeds.feedburner.com/BetterMovement?format=xml 
+0010_0002 | UNCAT | does anterior pelvic tilt cause low back pain - http://feeds.feedburner.com/BetterMovement?format=xml 
+0010_0003 | UNCAT | “soulless bodies and bodiless souls” - http://feeds.feedburner.com/BetterMovement?format=xml 
+0010_0004 | UNCAT | two ways to hack your jumping software - http://feeds.feedburner.com/BetterMovement?format=xml 
+0010_0005 | UNCAT | the effect of fatigue on coordination - http://feeds.feedburner.com/BetterMovement?format=xml 
+0010_0006 | UNCAT | video proves that people are awesome - http://feeds.feedburner.com/BetterMovement?format=xml 
+0010_0007 | UNCAT | great new paper on targeting the brain for treatment of pain - http://feeds.feedburner.com/BetterMovement?format=xml 
+0010_0008 | UNCAT | some good quotes from “movement” by gray cook - http://feeds.feedburner.com/BetterMovement?format=xml 
+0010_0009 | UNCAT | new study on efficiency mental and physical - http://feeds.feedburner.com/BetterMovement?format=xml 
+0010_0010 | UNCAT | the arthrokinetic reflex - http://feeds.feedburner.com/BetterMovement?format=xml 
+0011_0001 | UNCAT | learning and chronic pain part - http://bodyinmind.org/feed/ 
+0011_0002 | UNCAT | is the pursuit of happiness making us miserable - http://bodyinmind.org/feed/ 
+0011_0003 | UNCAT | can tweets predict citations - http://bodyinmind.org/feed/ 
+0011_0004 | UNCAT | windows into pain - http://bodyinmind.org/feed/ 
+0011_0005 | UNCAT | more fragility in core stability - http://bodyinmind.org/feed/ 
+0011_0006 | UNCAT | it’s time to quit fooling ourselves…it’s time to move forward in the treatment of pain - http://bodyinmind.org/feed/ 
+0011_0007 | UNCAT | my back has shrunk the influence of cupping therapy on body image - http://bodyinmind.org/feed/ 
+0011_0008 | UNCAT | media release ride to raise awareness for chronic pain - http://bodyinmind.org/feed/ 
+0011_0009 | UNCAT | the role of range of motion in recovery from whiplash associated disorders - http://bodyinmind.org/feed/ 
+0011_0010 | UNCAT | poles support ww2 veteran in trial - http://bodyinmind.org/feed/ 
+0012_0001 | UNCAT | demonstration edgework for the knee part weight bearing - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0002 | UNCAT | demonstration edgework for the knee part - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0003 | UNCAT | the nails of the foot - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0004 | UNCAT | demonstration edgework for the foot and ankle progression to standing - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0005 | UNCAT | demonstration edgework for the foot and ankle - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0006 | UNCAT | get in and drive - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0007 | UNCAT | the movement diet - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0008 | UNCAT | when pain appears everything changes - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0009 | UNCAT | the ticking time bomb - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0010 | UNCAT | taping for knee pain - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0011 | UNCAT | new blog building superhero - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0012 | UNCAT | which batman character are you - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0013 | UNCAT | video taping for elbow wrist and arm pain - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0014 | UNCAT | new look and new name - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0015 | UNCAT | story teller vs contextual architect - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0016 | UNCAT | interaction - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0017 | UNCAT | interaction - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0018 | UNCAT | no pain no gain don’t be such nietzsche - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0019 | UNCAT | stacking the deck an example from this mornings run - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0020 | UNCAT | how dangerous is this really - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0021 | UNCAT | stacking the deck - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0022 | UNCAT | vancouver wa getting outdoors with your family - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0023 | UNCAT | edgework applications low back pain - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0024 | UNCAT | novel movements of the hip and pelvis - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0025 | UNCAT | novel movements of the spine in quadruped - http://blog.forwardmotionpt.com/feeds/posts/default 
+0013_0001 | UNCAT | how occupational engagement might work in pain management - http://healthskills.wordpress.com/feed/ 
+0013_0002 | UNCAT | mindfulness catastrophising and disability - http://healthskills.wordpress.com/feed/ 
+0013_0003 | UNCAT | pain reduction doesn’t always reduce disability - http://healthskills.wordpress.com/feed/ 
+0013_0004 | UNCAT | gratitude when you’re in pain you’ve got to be kidding - http://healthskills.wordpress.com/feed/ 
+0013_0005 | UNCAT | what to do when patient is “inconsistent” - http://healthskills.wordpress.com/feed/ 
+0013_0006 | UNCAT | “faking” pain and inconsistency in presentation - http://healthskills.wordpress.com/feed/ 
+0013_0007 | UNCAT | the vexed question of determining whether pain is “real” - http://healthskills.wordpress.com/feed/ 
+0013_0008 | UNCAT | when patients think their problem is mysterious - http://healthskills.wordpress.com/feed/ 
+0013_0009 | UNCAT | ot only area password access - http://healthskills.wordpress.com/feed/ 
+0013_0010 | UNCAT | protected why can no longer think of myself as an occupational therapist - http://healthskills.wordpress.com/feed/ 
+0014_0001 | UNCAT | teaching spinal manipulation - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0002 | UNCAT | teaching spinal manip this weekend - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0003 | UNCAT | case of the week running regional interdependence - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0004 | UNCAT | informed consent - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0005 | UNCAT | quick links - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0006 | UNCAT | common cervical treatments - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0007 | UNCAT | quick links - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0008 | UNCAT | guest blog post long term static stretching - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0009 | UNCAT | quick links - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0010 | UNCAT | guide to posture - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0011 | UNCAT | the origins of my blog qa - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0012 | UNCAT | quick links - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0013 | UNCAT | qa time - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0014 | UNCAT | quick links - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0015 | UNCAT | stubbornly mechanistic or sticking with what works - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0016 | UNCAT | quick links - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0017 | UNCAT | qa time - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0018 | UNCAT | quick links - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0019 | UNCAT | case of the week 3512 the wobbly knee - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0020 | UNCAT | sleep or die - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0021 | UNCAT | quick links - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0022 | UNCAT | interview with the creator of physio connection - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0023 | UNCAT | quick links - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0024 | UNCAT | edge affiliate store - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0025 | UNCAT | quick links - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0015_0001 | UNCAT | if could - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0002 | UNCAT | time of transitions - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0003 | UNCAT | disrupting something sacred - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0004 | UNCAT | keeping up with research - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0005 | UNCAT | exploring our future - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0006 | UNCAT | clinical practice is research and research is practice - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0007 | UNCAT | becoming component secretary as new professional - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0008 | UNCAT | 4000 to - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0009 | UNCAT | generation with challenges vision and debt - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0010 | UNCAT | professional leadership my friendly wakeup call from the apta - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0011 | UNCAT | residency pros and woes for the soon to be new grad… - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0012 | UNCAT | pushing practice - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0013 | UNCAT | clinical contemplation on christmas - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0014 | UNCAT | congrats to of our own - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0015 | UNCAT | specializing - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0016 | UNCAT | ambitious changes for move it - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0017 | UNCAT | the big news new professional slated for national office - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0018 | UNCAT | the fountain of youth - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0019 | UNCAT | why move it why read it and why now - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0020 | UNCAT | it doesnt take long - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0021 | UNCAT | so much to do so little time and just as much certainty - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0022 | UNCAT | opportunities and inquiry - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0023 | UNCAT | poptsrfp - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0024 | UNCAT | its funny sometimes the way energy cycles around - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0025 | UNCAT | rekindling - http://moveitnps.blogspot.com/feeds/posts/default 

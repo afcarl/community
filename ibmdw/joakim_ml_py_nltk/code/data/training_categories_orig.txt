@@ -1,0 +1,295 @@
+
+0001_0001 | markets | mkt_idx | sp 500 ends best week in months - http://news.yahoo.com/rss/stock-markets 
+0001_0002 | markets | goldman | under fire goldman finds friend in new yorks mayor - http://news.yahoo.com/rss/stock-markets 
+0001_0003 | markets | goldman | under fire goldman finds friend in new yorks mayor - http://news.yahoo.com/rss/stock-markets 
+0001_0004 | markets | mkt_idx | stocks correction coming not that again - http://news.yahoo.com/rss/stock-markets 
+0001_0005 | markets | mkt_idx | how the major stock indexes fared on friday - http://news.yahoo.com/rss/stock-markets 
+0001_0006 | markets | mkt_idx | us stocks waver then end the day mixed - http://news.yahoo.com/rss/stock-markets 
+0001_0007 | markets | mkt_idx | sp 500 ends best week since december with quiet day - http://news.yahoo.com/rss/stock-markets 
+0001_0008 | markets | stocks  | analysts worry that somethings amiss at oracle - http://news.yahoo.com/rss/stock-markets 
+0001_0009 | markets | occupy  | summary box what has occupy achieved in months - http://news.yahoo.com/rss/stock-markets 
+0001_0010 | markets | occupy  | months later what has occupy protest achieved - http://news.yahoo.com/rss/stock-markets 
+0001_0011 | markets | goldman | in europe goldman letter deepens banks trust deficit - http://news.yahoo.com/rss/stock-markets 
+0001_0012 | markets | banks   | banks eye aig toxic assets held by ny fed wsj - http://news.yahoo.com/rss/stock-markets 
+0001_0013 | markets | mkt_idx | stock index futures signal flat wall street open - http://news.yahoo.com/rss/stock-markets 
+0001_0014 | markets | mkt_idx | stock index futures signal flat wall street open - http://news.yahoo.com/rss/stock-markets 
+0001_0015 | markets | mkt_idx | sp 500 ends above 1400 for first time - http://news.yahoo.com/rss/stock-markets 
+0001_0016 | markets | goldman | european client pans goldman slowness to reassure clients - http://news.yahoo.com/rss/stock-markets 
+0001_0017 | markets | goldman | explosive goldman exit fuels volcker rule push - http://news.yahoo.com/rss/stock-markets 
+0001_0018 | markets | oil     | releasing oil reserves worth looking at cameron - http://news.yahoo.com/rss/stock-markets 
+0001_0019 | markets | goldman | sp tops 1400 in first since 2008 crude oil dips - http://news.yahoo.com/rss/stock-markets 
+0001_0020 | markets | mkt_idx | sp ends over 1400 for first time since 2008 credit crisis - http://news.yahoo.com/rss/stock-markets 
+0001_0021 | markets | mkt_idx | summary box sp over 1400 first time since 2008 - http://news.yahoo.com/rss/stock-markets 
+0001_0022 | markets | europe  | sp keeps greece rating at selective default - http://news.yahoo.com/rss/stock-markets 
+0001_0023 | markets | europe  | sp keeps greece rating at selective default - http://news.yahoo.com/rss/stock-markets 
+0001_0024 | markets | goldman | departing goldman banker slams ripoff culture - http://news.yahoo.com/rss/stock-markets 
+0001_0025 | markets | goldman | analysis goldman top brass takes another knock - http://news.yahoo.com/rss/stock-markets 
+
+0002_0001 | energy | oil      | kurds say exxon still working in north iraq - http://news.yahoo.com/rss/energy 
+0002_0002 | energy | gas      | obamas weekly address no quick fixes to lower gas prices - http://news.yahoo.com/rss/energy 
+0002_0003 | energy | politics | pm note clooney day alternamitt on to puerto rico illinois santorums war on porn - http://news.yahoo.com/rss/energy 
+0002_0004 | energy | gas      | higher gas prices threaten economy if they persist - http://news.yahoo.com/rss/energy 
+0002_0005 | energy | gas      | gas prices still climbing top in states - http://news.yahoo.com/rss/energy 
+0002_0006 | energy | politics | obama hits back at republicans on gas prices - http://news.yahoo.com/rss/energy 
+0002_0007 | energy | gas      | gas prices still climbing ahead of the weekend - http://news.yahoo.com/rss/energy 
+0002_0008 | energy | politics | mitt romney calls for alternative president - http://news.yahoo.com/rss/energy 
+0002_0009 | energy | gas      | things that change when gas prices spike - http://news.yahoo.com/rss/energy 
+0002_0010 | energy | green    | auto agenda ever monaco takes look at green vehicles - http://news.yahoo.com/rss/energy 
+0002_0011 | energy | politics | missouri young adults rank gas prices poor economy and unemployment as top issues - http://news.yahoo.com/rss/energy 
+0002_0012 | energy | gas      | with gas prices rising should president obama tap the strategic petroleum reserve - http://news.yahoo.com/rss/energy 
+0002_0013 | energy | wind     | analysis in offshore wind risk provokes substantial industry interest - http://news.yahoo.com/rss/energy 
+0002_0014 | energy | energy   | love energy savings who compare business electricity and gas prices are pleased to announce the promotion of annette hodgkinson on the 16th march 2012 - http://news.yahoo.com/rss/energy 
+0002_0015 | energy | wind     | home wind power classes coming to brownstown indiana - http://news.yahoo.com/rss/energy 
+0002_0016 | energy | politics | missouri young adults rank gas prices poor economy and unemployment as top issues - http://news.yahoo.com/rss/energy 
+0002_0017 | energy | water    | epa water quality ok in pa gas drilling town - http://news.yahoo.com/rss/energy 
+0002_0018 | energy | politics | obama demonstrates history impairment with flat earth remark - http://news.yahoo.com/rss/energy 
+0002_0019 | energy | oil      | argentina takes aim at falklands oil companies - http://news.yahoo.com/rss/energy 
+0002_0020 | energy | govt     | epa testing in pa town doesnt show contamination - http://news.yahoo.com/rss/energy 
+0002_0021 | energy | gas      | 2012 airfares gas prices to keep climbing - http://news.yahoo.com/rss/energy 
+0002_0022 | energy | oil      | chevron suspends brazil oil output following new spill - http://news.yahoo.com/rss/energy 
+0002_0023 | energy | oil      | brazil says new chevron oil leak off coast - http://news.yahoo.com/rss/energy 
+0002_0024 | energy | politics | coburn on obama energy policy ‘keep all the green incentives but let’s take care of our own oil’ video - http://news.yahoo.com/rss/energy 
+0002_0025 | energy | oil      | brazil to fine chevron after new small leak anp - http://news.yahoo.com/rss/energy 
+0002_0026 | energy | oil      | chevron halts brazil production after new leak - http://news.yahoo.com/rss/energy 
+0002_0027 | energy | oil      | chevron halts brazil production after new leak - http://news.yahoo.com/rss/energy 
+0002_0028 | energy | oil      | argentina plans civil and criminal actions against oil companies exploring in falklands - http://news.yahoo.com/rss/energy 
+0002_0029 | energy | brazil   | chevron has not altered brazil investments executive - http://news.yahoo.com/rss/energy 
+0002_0030 | energy | politics | president obama foggy on hayes - http://news.yahoo.com/rss/energy 
+0002_0031 | energy | politics | obama blasts gop candidates for resistance to green energy - http://news.yahoo.com/rss/energy 
+0002_0032 | energy | politics | obama slams republicans as new energy naysayers - http://news.yahoo.com/rss/energy 
+0002_0033 | energy | politics | prices polls and peril - http://news.yahoo.com/rss/energy 
+0002_0034 | energy | politics | obama in full crisiscontrol mode on gas prices - http://news.yahoo.com/rss/energy 
+0002_0035 | energy | energy   | on the 15th march 2012 love energys savings who compare business electricity and gas prices have developed new system to compare the energy market in under 90 seconds - http://news.yahoo.com/rss/energy 
+0002_0036 | energy | green    | green power developer emerges as one of nj’s top 30 green energy companies - http://news.yahoo.com/rss/energy 
+0002_0037 | energy | mkt_idx  | wall st retreats after rally but apple up again - http://news.yahoo.com/rss/energy 
+0002_0038 | energy | oil      | chevron to evacuate some workers at australian oil ops ahead of cyclone - http://news.yahoo.com/rss/energy 
+0002_0039 | energy | govt     | lawsuits against epa target nutrients in us waters - http://news.yahoo.com/rss/energy 
+0002_0040 | energy | govt     | doe breaks its own rules in reviewing loan guarantees - http://news.yahoo.com/rss/energy 
+
+0003_0001 | health | smoking  | indonesian eightyearold to kick smoking habit - http://news.yahoo.com/rss/health 
+0003_0002 | health | UNCAT    | sanofi to buy legoo maker pluromed - http://news.yahoo.com/rss/health 
+0003_0003 | health | diabetes | white rice link seen with type diabetes says study - http://news.yahoo.com/rss/health 
+0003_0004 | health | stress   | experts soldier might have posttraumatic stress - http://news.yahoo.com/rss/health 
+0003_0005 | health | diet     | pink slime sounds gross but how does it taste - http://news.yahoo.com/rss/health 
+0003_0006 | health | smoking  | cdc launching graphic antismoking ad campaign - http://news.yahoo.com/rss/health 
+0003_0007 | health | alcohol  | spring break boozing may put young brains at risk - http://news.yahoo.com/rss/health 
+0003_0008 | health | heart    | following hearthealthy behaviors may lengthen your life - http://news.yahoo.com/rss/health 
+0003_0009 | health | UNCAT    | kony video director hospitalized in us after incident - http://news.yahoo.com/rss/health 
+0003_0010 | health | cancer   | chavez back in venezuela after cancer surgery - http://news.yahoo.com/rss/health 
+0003_0011 | health | breast   | dutch extend warning on french breast implants - http://news.yahoo.com/rss/health 
+0003_0012 | health | contraceptives | us government readies new contraceptives language - http://news.yahoo.com/rss/health 
+0003_0013 | health | seniors  | active seniors may outlive sedentary peers - http://news.yahoo.com/rss/health 
+0003_0014 | health | training | doctors lifesupport skills fade after training - http://news.yahoo.com/rss/health 
+0003_0015 | health | depression | depression tied to earlier death in heart patients - http://news.yahoo.com/rss/health 
+0003_0016 | health | spanking | with spanking nature and nurture create more aggression study suggests - http://news.yahoo.com/rss/health 
+0003_0017 | health | UNCAT    | poor reading skills might be fatal for older folks - http://news.yahoo.com/rss/health 
+0003_0018 | health | diabetes | as white rice intake rises so may your risk for diabetes - http://news.yahoo.com/rss/health 
+0003_0019 | health | UNCAT    | health highlights march 16 2012 - http://news.yahoo.com/rss/health 
+0003_0020 | health | menopause | menopause may cost women sick days - http://news.yahoo.com/rss/health 
+0003_0021 | health | psoriasis | psoriasis patients may face higher heart risk - http://news.yahoo.com/rss/health 
+0003_0022 | health | eye | national screening urged to detect eye disease in blacks - http://news.yahoo.com/rss/health 
+0003_0023 | health | hearing | deaf people have more mental health problems less access to care - http://news.yahoo.com/rss/health 
+0003_0024 | health | genomics | researcher uses genomics to predict his odds for disease - http://news.yahoo.com/rss/health 
+0003_0025 | health | stroke | half of stroke victims dont call 911 research shows - http://news.yahoo.com/rss/health 
+0003_0026 | health | aging | genes may hold the key to aging skin - http://news.yahoo.com/rss/health 
+0003_0027 | health | UNCAT | tooting your horn can raise risk for skin condition - http://news.yahoo.com/rss/health 
+0003_0028 | health | stress | stressed parents may affect preemie behavior later - http://news.yahoo.com/rss/health 
+
+0004_0001 | technology | computer | computer matching wits with humans in crossword tournament - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0002 | technology | apple    | media decoder blog this american life retracts episode on apples suppliers in china - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0003 | technology | crime    | dharun ravi guilty of hate crimes in rutgers case - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0004 | technology | fatigue  | onslaught of surveys is fraying customer patience - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0005 | technology | ipad     | bits blog crowds gather for the latest version of the ipad - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0006 | technology | mobile   | bits blog draw something new twist on pictionary charms mobile gamers - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0007 | technology | cisco    | bits blog ciscos bold networking startup - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0008 | technology | apple    | pressure on apple builds over app store fraud - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0009 | technology | cisco    | dealbook cisco to buy nds video services firm for billion - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0010 | technology | computer | bits blog turing award for helping make computers smarter - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0011 | technology | cloud    | bits blog better economic forecasts from the cloud - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0012 | technology | freedom  | bits blog companies pledge not to help pakistan filter the web - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0013 | technology | social_net | with youtube video obama looks to expand social media reach - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0014 | technology | groupon  | conversations groupon alternative aims to offer small businesses better deal - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0015 | technology | UNCAT    | adding technology to museum costume displays - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0016 | technology | conferences | bits blog sxsw interactive the comedown - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0017 | technology | google | bits is google plus’s problem one of design - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0018 | technology | privacy | bits blog congress presses apple on app privacy - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0019 | technology | hacking | new interest in hacking as threat to us security - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0020 | technology | companies | bits blog aol slashes staff at aim unit wider cuts expected - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0021 | technology | companies | media decoder blog after 244 years encyclopaedia britannica stops the presses - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0022 | technology | ipad      | state of the art the new ipad is much the same only better - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0023 | technology | social_net | room for debate fighting war crimes without leaving the couch - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0024 | technology | conferences | the media equation guidelines proposed for content aggregation online - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0025 | technology | apps | disruptions disruptions tv makers ignore apps at their own peril - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0026 | technology | eye | easing eye strain with the right lenses - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0027 | technology | apps | app smart new apps for distance workouts - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0028 | technology | gadgets | gadgetwise computer case for casual friday - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0029 | technology | gadgets | gadgetwise installing the windows preview - http://feeds.nytimes.com/nyt/rss/Technology 
+0004_0030 | technology | gadgets | gadgetwise six tips for better portraits - http://feeds.nytimes.com/nyt/rss/Technology 
+  
+0005_0001 | sports | c_hoops | sans fab melo syracuse should start worrying now - http://sports.espn.go.com/espn/rss/news 
+0005_0002 | sports | c_hoops | mccollum sparks lehigh to upset of no duke - http://sports.espn.go.com/espn/rss/news 
+0005_0003 | sports | nba | kobe fishers abrupt departure very difficult - http://sports.espn.go.com/espn/rss/news 
+0005_0004 | sports | c_hoops | norfolk st shoots lights out stuns no mizzou - http://sports.espn.go.com/espn/rss/news 
+0005_0005 | sports | nfl | sources manning previously hosted 49ers - http://sports.espn.go.com/espn/rss/news 
+0005_0006 | sports | mlb | pettitte returns to yanks signs 1year deal - http://sports.espn.go.com/espn/rss/news 
+0005_0007 | sports | nfl | cardinals pay kolb 7m end manning pursuit - http://sports.espn.go.com/espn/rss/news 
+0005_0008 | sports | nba | lebron howards decision quandary not same - http://sports.espn.go.com/espn/rss/news 
+0005_0009 | sports | nba | nets williams wont follow howard and opt in - http://sports.espn.go.com/espn/rss/news 
+0005_0010 | sports | golf | tiger to play 2day exhibition starting monday - http://sports.espn.go.com/espn/rss/news 
+0005_0011 | sports | tennis | federer nadal to meet in indian wells semis - http://sports.espn.go.com/espn/rss/news 
+0005_0012 | sports | nfl | marshall not afraid accuser wants justice - http://sports.espn.go.com/espn/rss/news 
+0005_0013 | sports | nba | brown didnt discuss fisher trade with kobe - http://sports.espn.go.com/espn/rss/news 
+0005_0014 | sports | nba | woodson lin to keep running point for knicks - http://sports.espn.go.com/espn/rss/news 
+0005_0015 | sports | nfl | elway broncos watch peyton work out in nc - http://sports.espn.go.com/espn/rss/news 
+0005_0016 | sports | c_football | poll paterno favored for renaming of stadium - http://sports.espn.go.com/espn/rss/news 
+
+0006_0001 | pragprog | ruby | build awesome commandline applications in ruby now in print - http://pragprog.com/feed/global 
+0006_0002 | pragprog | jruby | deploying with jruby now in beta pragpub magazine - http://pragprog.com/feed/global 
+0006_0003 | pragprog | tmux | tmux and technical blogging now in print - http://pragprog.com/feed/global 
+0006_0004 | pragprog | arduino | programming your home automate with arduino android and your computer now in print - http://pragprog.com/feed/global 
+0006_0005 | pragprog | code | the developers code now in print - http://pragprog.com/feed/global 
+0006_0006 | pragprog | android | new magazine hello android updates - http://pragprog.com/feed/global 
+0006_0007 | pragprog | ruby | the cucumber book in print scripted gui testing updated wcucumber and rspec - http://pragprog.com/feed/global 
+0006_0008 | pragprog | rails | deploying rails automate deploy scale maintain and sleep at night now in beta - http://pragprog.com/feed/global 
+0006_0009 | pragprog | web_dev | web development recipes now in print january magazine - http://pragprog.com/feed/global 
+0006_0010 | pragprog | sass | pragmatic guide to sass now in print - http://pragprog.com/feed/global 
+
+0007_0001 | ruby | ruby | ruby holidays gem - http://rubyforge.org/export/rss_sfnewreleases.php 
+0007_0002 | ruby | ruby | automatic ruby - http://rubyforge.org/export/rss_sfnewreleases.php 
+0007_0003 | ruby | ruby | rainbows - http://rubyforge.org/export/rss_sfnewreleases.php 
+0007_0004 | ruby | ruby | axlsx - http://rubyforge.org/export/rss_sfnewreleases.php 
+0007_0005 | ruby | ruby | ls shows list of file - http://rubyforge.org/export/rss_sfnewreleases.php 
+0007_0006 | ruby | ruby | fxruby - http://rubyforge.org/export/rss_sfnewreleases.php 
+
+0008_0001 | physiotherapist | knees | patellofemoral pain syndrome can we predict who will get it - http://www.thesportsphysiotherapist.com/feed/ 
+0008_0002 | physiotherapist | physiotherapy | the power of storytelling in sports physiotherapy - http://www.thesportsphysiotherapist.com/feed/ 
+0008_0003 | physiotherapist | injury | how mechanism of injury affects prognosis following hamstring strain - http://www.thesportsphysiotherapist.com/feed/ 
+0008_0004 | physiotherapist | knees  | pigmented villonodular synovitis of the knee - http://www.thesportsphysiotherapist.com/feed/ 
+0008_0005 | physiotherapist | joints | joint line fullness for diagnosing meniscal pathology - http://www.thesportsphysiotherapist.com/feed/ 
+0008_0006 | physiotherapist | knees | juvenile osteochondritis dissecans of the knee assessment and management - http://www.thesportsphysiotherapist.com/feed/ 
+0008_0007 | physiotherapist | concussion | predicting recovery following concussion - http://www.thesportsphysiotherapist.com/feed/ 
+0008_0008 | physiotherapist | injury | lumbar spine mobilisation for hamstring strains - http://www.thesportsphysiotherapist.com/feed/ 
+0008_0009 | physiotherapist | physiotherapy | what makes your sports physiotherapy practice successful - http://www.thesportsphysiotherapist.com/feed/ 
+0008_0010 | physiotherapist | diagnosis | identifying subscapularis tears the diagnostic accuracy of clinical tests - http://www.thesportsphysiotherapist.com/feed/ 
+
+0009_0001 | npa_tt | csm | csm 2012 the pauline cerasoli lecture - http://feeds.feedburner.com/NPAThinkTank?format=xml 
+0009_0002 | npa_tt | csm | csm 2012 was thrilling…and cold - http://feeds.feedburner.com/NPAThinkTank?format=xml 
+0009_0003 | npa_tt | csm | csm2012 day programming - http://feeds.feedburner.com/NPAThinkTank?format=xml 
+0009_0004 | npa_tt | csm | csm 2012 chicago edition is here - http://feeds.feedburner.com/NPAThinkTank?format=xml 
+0009_0005 | npa_tt | leveraging_tech| leveraging technology vi case example acl injury “prevention” - http://feeds.feedburner.com/NPAThinkTank?format=xml 
+0009_0006 | npa_tt | leveraging_tech | leveraging technology beyond rss to engagement - http://feeds.feedburner.com/NPAThinkTank?format=xml 
+0009_0007 | npa_tt | leveraging_tech | leveraging technology iv blogs - http://feeds.feedburner.com/NPAThinkTank?format=xml 
+0009_0008 | npa_tt | aaompt | aaompt 2011 anaheim ca - http://feeds.feedburner.com/NPAThinkTank?format=xml 
+0009_0009 | npa_tt | social_net | use twitter to network before your next conference - http://feeds.feedburner.com/NPAThinkTank?format=xml 
+0009_0010 | npa_tt | leveraging_tech | leveraging technology iii selection of content - http://feeds.feedburner.com/NPAThinkTank?format=xml 
+
+0010_0001 | movement | pelvis | does anterior pelvic tilt cause low back pain - http://feeds.feedburner.com/BetterMovement?format=xml 
+0010_0002 | movement | soul   | “soulless bodies and bodiless souls” - http://feeds.feedburner.com/BetterMovement?format=xml 
+0010_0003 | movement | jumping | two ways to hack your jumping software - http://feeds.feedburner.com/BetterMovement?format=xml 
+0010_0004 | movement | fatigue | the effect of fatigue on coordination - http://feeds.feedburner.com/BetterMovement?format=xml 
+0010_0005 | movement | people  | video proves that people are awesome - http://feeds.feedburner.com/BetterMovement?format=xml 
+0010_0006 | movement | pain    | great new paper on targeting the brain for treatment of pain - http://feeds.feedburner.com/BetterMovement?format=xml 
+0010_0007 | movement | movement | some good quotes from “movement” by gray cook - http://feeds.feedburner.com/BetterMovement?format=xml 
+0010_0008 | movement | efficiency | new study on efficiency mental and physical - http://feeds.feedburner.com/BetterMovement?format=xml 
+0010_0009 | movement | reflex | the arthrokinetic reflex - http://feeds.feedburner.com/BetterMovement?format=xml 
+0010_0010 | movement | feet | high heels barefeet and running in circles - http://feeds.feedburner.com/BetterMovement?format=xml 
+
+0011_0001 | bodymind | depression | is the pursuit of happiness making us miserable - http://bodyinmind.org/feed/ 
+0011_0002 | bodymind | twitter    | can tweets predict citations - http://bodyinmind.org/feed/ 
+0011_0003 | bodymind | pain     | windows into pain - http://bodyinmind.org/feed/ 
+0011_0004 | bodymind | core     | more fragility in core stability - http://bodyinmind.org/feed/ 
+0011_0005 | bodymind | pain     | it’s time to quit fooling ourselves…it’s time to move forward in the treatment of pain - http://bodyinmind.org/feed/ 
+0011_0006 | bodymind | back     | my back has shrunk the influence of cupping therapy on body image - http://bodyinmind.org/feed/ 
+0011_0007 | bodymind | pain     | media release ride to raise awareness for chronic pain - http://bodyinmind.org/feed/ 
+0011_0008 | bodymind | motion   | the role of range of motion in recovery from whiplash associated disorders - http://bodyinmind.org/feed/ 
+0011_0009 | bodymind | diet     | poles support ww2 veteran in trial - http://bodyinmind.org/feed/ 
+0011_0010 | bodymind | research | peer review picks pack of pickled papers - http://bodyinmind.org/feed/ 
+
+0012_0001 | motionpt | knees    | demonstration edgework for the knee part weight bearing - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0002 | motionpt | knees    | demonstration edgework for the knee part - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0003 | motionpt | feet     | the nails of the foot - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0004 | motionpt | feet     | demonstration edgework for the foot and ankle progression to standing - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0005 | motionpt | feet     | demonstration edgework for the foot and ankle - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0006 | motionpt | movement | get in and drive - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0007 | motionpt | movement | the movement diet - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0008 | motionpt | pain     | when pain appears everything changes - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0009 | motionpt | movement | the ticking time bomb - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0010 | motionpt | knees    | taping for knee pain - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0011 | motionpt | UNCAT    | new blog building superhero - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0012 | motionpt | UNCAT    | which batman character are you - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0013 | motionpt | pain     | video taping for elbow wrist and arm pain - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0014 | motionpt | UNCAT    | new look and new name - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0015 | motionpt | UNCAT    | story teller vs contextual architect - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0016 | motionpt | interaction | interaction - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0017 | motionpt | interaction | interaction - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0018 | motionpt | pain | no pain no gain don’t be such nietzsche - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0019 | motionpt | knees | stacking the deck an example from this mornings run - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0020 | motionpt | UNCAT | how dangerous is this really - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0021 | motionpt | UNCAT | stacking the deck - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0022 | motionpt | UNCAT | vancouver wa getting outdoors with your family - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0023 | motionpt | pain | edgework applications low back pain - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0024 | motionpt | pelvis | novel movements of the hip and pelvis - http://blog.forwardmotionpt.com/feeds/posts/default 
+0012_0025 | motionpt | spine  | novel movements of the spine in quadruped - http://blog.forwardmotionpt.com/feeds/posts/default 
+
+0013_0001 | healthskills | pain | how occupational engagement might work in pain management - http://healthskills.wordpress.com/feed/ 
+0013_0002 | healthskills | disability | mindfulness catastrophising and disability - http://healthskills.wordpress.com/feed/ 
+0013_0003 | healthskills | disability | pain reduction doesn’t always reduce disability - http://healthskills.wordpress.com/feed/ 
+0013_0004 | healthskills | pain | gratitude when you’re in pain you’ve got to be kidding - http://healthskills.wordpress.com/feed/ 
+0013_0005 | healthskills | patients | what to do when patient is “inconsistent” - http://healthskills.wordpress.com/feed/ 
+0013_0006 | healthskills | diagnosis | “faking” pain and inconsistency in presentation - http://healthskills.wordpress.com/feed/ 
+0013_0007 | healthskills | diagnosis | the vexed question of determining whether pain is “real” - http://healthskills.wordpress.com/feed/ 
+0013_0008 | healthskills | patients  | when patients think their problem is mysterious - http://healthskills.wordpress.com/feed/ 
+0013_0009 | healthskills | UNCAT | ot only area password access - http://healthskills.wordpress.com/feed/ 
+0013_0010 | healthskills | therapist | protected why can no longer think of myself as an occupational therapist - http://healthskills.wordpress.com/feed/ 
+
+0014_0001 | manual_therapist | UNCAT | quick links - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0002 | manual_therapist | posture | guide to posture - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0003 | manual_therapist | UNCAT | the origins of my blog qa - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0004 | manual_therapist | UNCAT | quick links - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0005 | manual_therapist | UNCAT | qa time - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0006 | manual_therapist | UNCAT | quick links - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0007 | manual_therapist | UNCAT | stubbornly mechanistic or sticking with what works - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0008 | manual_therapist | UNCAT | quick links - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0009 | manual_therapist | UNCAT | qa time - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0010 | manual_therapist | UNCAT | quick links - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0011 | manual_therapist | knees | case of the week 3512 the wobbly knee - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0012 | manual_therapist | sleep | sleep or die - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0013 | manual_therapist | UNCAT | quick links - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0014 | manual_therapist | UNCAT | interview with the creator of physio connection - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0015 | manual_therapist | UNCAT | quick links - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0016 | manual_therapist | edge | edge affiliate store - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0017 | manual_therapist | UNCAT | quick links - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0018 | manual_therapist | UNCAT | webinars and subscription based channel - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0019 | manual_therapist | ectomorph | case of the week 22712 the ectomorph - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0020 | manual_therapist | edge | edge and eim collaboration - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0021 | manual_therapist | UNCAT | quick links - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0022 | manual_therapist | tmj | technique highlight tmj manual techniques - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0023 | manual_therapist | physiopedia | check out physiopedia - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0024 | manual_therapist | UNCAT | great post dont always believe what you read - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+0014_0025 | manual_therapist | UNCAT | quick links - http://feeds.feedburner.com/TheManualTherapist?format=xml 
+
+0015_0001 | move_it | UNCAT      | if could - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0002 | move_it | UNCAT      | time of transitions - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0003 | move_it | disruptive | disrupting something sacred - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0004 | move_it | research   | keeping up with research - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0005 | move_it | future     | exploring our future - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0006 | move_it | research   | clinical practice is research and research is practice - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0007 | move_it | UNCAT | becoming component secretary as new professional - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0008 | move_it | UNCAT | 4000 to - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0009 | move_it | UNCAT | generation with challenges vision and debt - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0010 | move_it | UNCAT | professional leadership my friendly wakeup call from the apta - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0011 | move_it | UNCAT | residency pros and woes for the soon to be new grad… - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0012 | move_it | UNCAT | pushing practice - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0013 | move_it | UNCAT | clinical contemplation on christmas - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0014 | move_it | UNCAT | congrats to of our own - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0015 | move_it | UNCAT | specializing - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0016 | move_it | UNCAT | ambitious changes for move it - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0017 | move_it | UNCAT | the big news new professional slated for national office - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0018 | move_it | UNCAT | the fountain of youth - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0019 | move_it | UNCAT | why move it why read it and why now - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0020 | move_it | UNCAT | it doesnt take long - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0021 | move_it | UNCAT | so much to do so little time and just as much certainty - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0022 | move_it | UNCAT | opportunities and inquiry - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0023 | move_it | UNCAT | poptsrfp - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0024 | move_it | UNCAT | its funny sometimes the way energy cycles around - http://moveitnps.blogspot.com/feeds/posts/default 
+0015_0025 | move_it | UNCAT | rekindling - http://moveitnps.blogspot.com/feeds/posts/default 

@@ -1,0 +1,7 @@
+feed://news.yahoo.com/rss/stock-markets
+feed://news.yahoo.com/rss/energy
+feed://news.yahoo.com/rss/health
+http://feeds.nytimes.com/nyt/rss/Technology
+http://sports.espn.go.com/espn/rss/news
+http://pragprog.com/feed/global
+http://rubyforge.org/export/rss_sfnewreleases.php

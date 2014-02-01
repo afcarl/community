@@ -1,0 +1,776 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=macintosh" />
+  <title> </title>
+  <style>
+  body {
+    margin: 25px;
+  }
+
+  a {
+    text-decoration: none;
+    border-bottom: 1px dotted blue;
+  }
+
+  h1, h2, h3, h4, p.close, p.subhead {
+    font-family: Tahoma, Arial, Verdana, sans-serif;
+  }
+
+  img {
+    border: 1px black solid;
+  }
+
+  li {
+    margin-bottom: 1em;
+  }
+
+  div.image {
+    border:  1px solid black;
+    padding: 5px;
+    margin:  1em;
+    text-align: center;
+  }
+
+  p.image {
+    text-align: center;
+  }
+
+  p.opening {
+    font-style: italic;
+  }
+
+  tt, pre, code {
+    font-family: Courier, sans-serif;
+    visibility:  visible;
+  }
+
+  code {
+    padding-left: 0.25em;
+    font-size:    0.8em;
+  }
+
+  tt {
+    font-weight: bolder;
+  }
+
+  p.close {
+    border-top: 1px solid black;
+    padding: 5px 0px;
+    margin-top: 2em;
+    font-size: smaller;
+  }
+
+  pre {
+    background: #DAE6FD;
+    color:      blue;
+    font-size:  0.7em;
+    padding:    5px 10px;
+    padding-top:    0.3em;
+    padding-bottom: 0.1em;
+    border-radius:  15px;
+  }
+
+  pre.list {
+    background: white;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+  }
+
+  table {
+    width: 100%;
+    padding: 0 2em;
+  }
+
+  th, td {
+    padding: 4px 12px;
+  }
+
+  th {
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  ol {
+    list-style-type: none;
+    padding-left: 0;
+  }
+</style>
+</head>
+<body>
+
+<h1>Summary</h1>
+
+Machine Learning lies at the intersection of Information Technology, Mathematics, and Natural Language
+and is typically used in "Big Data" applications.  This article discovers the Python programming language,
+its NLTK library, and applies them to a Machine Learning project.
+
+<hr/>
+
+<p class="opening">
+This article is for software developers, particularly those coming from a Ruby or Java
+language background, who are facing their first Machine Learning implementation.  It also
+describes a personal journey in discovering a useful and pragmatic programming language: Python.
+</p>
+
+<h1>Exploring Python, Machine Learning, and the NLTK</h1>
+
+<h2>Part I. The challenge - Categorize RSS feeds with Machine Learning</h2>
+
+<p>
+I was recently given the assignment to create an RSS Feed categorization subsystem for a client.
+The goal was to read dozens, or even hundreds, of RSS feeds, and to automatically categorize their many
+articles into one of dozens of pre-defined subject areas.  The content, navigation, and search
+functionality of the client web site would be driven by the results of the daily automated feed
+retrieval and categorization.
+</p>
+
+<p>
+The client suggested using "Machine Learning", perhaps with Apache Mahout and Hadoop, as she had
+recently read articles about those technologies.  Her development team, and ours, however, is fluent
+in Ruby rather than Java.  This article describes the technical journey, learning process, and
+ultimate implementation of a solution.
+</p>
+
+<h3>What is Machine Learning?</h3>
+
+<p>
+My first question was "what exactly is Machine Learning?".  I had heard the term, and was
+vaguely aware that Watson, the IBM supercomputer, had recently used it to defeat human
+competitors in a game of Jeopardy.  As a shopper and social network participant, I was also
+aware that both Amazon.com and Facebook do an amazingly good job of "recommending" things
+(i.e. - products, people) based on data about myself and others.  In short, Machine Learning
+lies at the intersection of Information Technology, Mathematics, and Natural Language.
+It is primarily concerned with these three topics; the solution for the client would ultimately
+involve the first two:
+<ul>
+  <li><strong>Classification</strong> - assigning items to arbitrary pre-defined categories,
+      based on a set of training data of similar items.</li>
+  <li><strong>Recommendation</strong> - recommending items based on observations of similar items. </li>
+  <li><strong>Clustering</strong> - identifying subgroups within a population of data. </li>
+</ul>
+</p>
+
+<h3>The Mahout and Ruby detours</h3>
+
+<p>
+Armed with an understanding of what Machine Learning is, the next step was to determine how to
+implement it.  As the client suggested, <a href="http://mahout.apache.org/">Apache Mahout</a>
+was an appropriate starting place.  I downloaded the code from Apache and went about the
+process of learning ML with Mahout, and its sibling, Apache Hadoop.  Unfortunately, I found
+that Mahout had a steep learning curve, even for an experienced Java developer, and that
+working sample code didn't exist.  Also unfortunate was a lack or Ruby-based frameworks
+or gems for Machine Learning.
+</p>
+
+<h3>Finding Python and NLTK</h3>
+
+<p>
+I continued to search for a solution and kept on encountering "Python" in the result sets.
+As a Rubyist, I knew that Python was a very similar Object-Oriented, text-based, interpreted,
+and dynamic programming language, though I hadn't learned the language yet.  Given these similarities,
+I had neglected to learn Python over the years, seeing it as a redundant skillset.  Python was in my
+"blind spot", as I suspect it is for many of my Rubyist peers.
+</p>
+<p>
+Searching for books on ML, and digging deeper into their table of contents, revealed that
+a high percentage of these use Python as their implementation language, along with a library
+known as the "Natural Language Toolkit (NLTK)".  Further searching revealed that Python was
+more widely used than I had realized - such as Google App Engine, YouTube, and web sites built
+with the Django framework.  It even comes pre-installed on the Mac OS X workstations
+I use daily!  Furthermore, Python offers interesting standard libraries (i.e. - NumPy and SciPy)
+for mathematics, science, and engineering. Who knew?
+</p>
+
+<p>
+I decided to pursue a Python solution after I found elegant coding examples.  The following one-liner,
+for example, is all the code needed to read an RSS feed via HTTP, and print its contents:
+<pre>
+    print feedparser.parse("http://feeds.nytimes.com/nyt/rss/Technology")
+</pre>
+</p>
+
+<h2>Part II.  Getting up to speed on Python</h2>
+
+<p>
+In learning a new programming language, the easy part is often learning the language itself.
+The harder part is learning its "ecosystem" - how to install it, add libraries,
+write code, structure the code files, execute it, debug it, and write unit tests.
+This section is intended to be a brief introduction to these topics; readers are encouraged
+to see the list of resources below.
+</p>
+
+<h3>pip</h3>
+
+<p>
+<strong>pip</strong> is the standard package manager for Python; it's the program you use to add
+libraries to your system.  It's analogous to "gem" for Ruby libraries.  To add the
+"nltk" library to your system, you enter the following command:
+  <pre>
+
+  $ <b>pip install nltk</b>
+  </pre>
+
+To display a list of python libraries installed on your system, you run this command:
+  <pre>
+
+  $ <b>pip freeze</b>
+  </pre>
+</p>
+
+<h3>Running programs</h3>
+
+<p>
+Executing a Python program is equally simple.  Given a program named "locomotive_main.py",
+and three program arguments, you compile and execute it with <strong>python</strong> program:
+  <pre>
+
+  $ <b>python locomotive_main.py arg1 arg2 arg3</b>
+  </pre>
+</p>
+
+<p>
+Python uses the <code>if __name__ == "__main__":</code> syntax shown below to determine
+if the file itself is being executed from the command line, or is just being imported
+by other code.  To make a file executable, add <code>"__main__"</code> detection like this.
+  <pre>
+
+import sys
+import time
+import locomotive
+
+if __name__ == "__main__":
+    start_time = time.time()
+    if len(sys.argv) > 1:
+        app = locomotive.app.Application()
+        ... additional logic ...
+  </pre>
+</p>
+
+<h3>virtualenv</h3>
+
+<p>
+Most Rubyists are familiar with the issue of system-wide libraries, or gems.  A System-wide set
+of libraries is generally not desirable, as one of your projects may depend on version 1.0.0 of
+a given library, while another project depends on version 1.2.7.  Likewise, Java developers
+are aware of this same issue with a system wide CLASSPATH.
+Like the Ruby community with its <a href="http://beginrescueend.com/"><strong>rvm</strong></a>
+tool, the Python community uses the
+<a href="http://pypi.python.org/pypi/virtualenv"><strong>virtualenv</strong></a>
+tool to create separate execution environments - including specific versions of python
+and a set of libraries.  The following commands show how to create a virtual environment
+named "p1_env" for your "p1" project, which contain the feedparser, numpy, scipy, and nltk libraries.
+
+  <pre>
+
+  $ <b>sudo pip install virtualenv</b>
+  $ <b>cd ~</b>
+  $ <b>mkdir p1</b>
+  $ <b>cd p1</b>
+  $ <b>virtualenv p1_env --distribute</b>
+  $ <b>source p1_env/bin/activate </b>
+  (p1_env)[~/p1]$ <b>pip install feedparser</b>
+  (p1_env)[~/p1]$ <b>pip install numpy</b>
+  (p1_env)[~/p1]$ <b>pip install scipy</b>
+  (p1_env)[~/p1]$ <b>pip install nltk</b>
+  (p1_env)[~/p1]$ <b>pip freeze</b>
+  </pre>
+</p>
+
+<p>
+You'll need to "source" your virtual environment activate script each time you work with
+your project in a shell window.  Notice that the shell prompt changes after the activate
+script is sourced. As you create and use shell windows on your system, and to easily navigate
+to your project directory and activate its' virtual environment, you may wish to add an entry
+like the following to your ~/.bash_profile file:
+<pre>
+
+$ <b>alias p1="cd ~/p1 ; source p1_env/bin/activate"</b>
+</pre>
+</p>
+
+<h3>Codebase structure</h3>
+<p>
+After graduating from simple single-file "Hello World" programs, Python developers need
+to understand how to properly structure their codebase regarding directories and filenames.
+Java and Ruby each have their own requirements in this regard, and Python is no different.
+In short, Python uses the concept of "packages" to group related code, and provide
+non-ambiguous namespaces.  For the purpose of demonstration in this article, the code
+exists within a given project-root directory, such as ~/p1.  Within this directory, there
+exists a "locomotive" directory for a Python package of the same name.  This
+directory structure is shown below.
+
+  <pre>
+
+locomotive_main.py
+locomotive_tests.py
+
+locomotive/
+    __init__.py
+    app.py
+    capture.py
+    category_associations.py
+    classify.py
+    news.py
+    recommend.py
+    rss.py
+
+locomotive_tests/
+    __init__.py
+    app_test.py
+    category_associations_test.py
+    feed_item_test.pyc
+    rss_item_test.py
+  </pre>
+</p>
+
+<p>
+Notice the oddly named <code>"__init__.py"</code> files.  These instruct Python to load the
+necessary libraries for your package, as well as your specific application code
+files which reside in the same directory.  The contents of file "locomotive/__init__.py"
+are shown below.
+
+  <pre>
+
+    # system imports; loads installed packages
+    import codecs
+    import locale
+    import sys
+
+    # application imports; these load your specific *.py files
+    import app
+    import capture
+    import category_associations
+    import classify
+    import rss
+    import news
+    import recommend
+  </pre>
+</p>
+
+<p>
+Now that the "locomotive" package has been structured as above, it can
+be imported and used by the "main" programs in the root directory of your
+project.  For example, file "locomotive_main.py" contains the following imports:
+  <pre>
+
+    import sys         # <-- system library
+    import time        # <-- system library
+    import locomotive  # <-- custom application code library in the "locomotive" directory
+  </pre>
+</p>
+
+<h3>Testing</h3>
+<p>
+The Python <a href="http://docs.python.org/library/unittest.html"><strong>unittest</strong></a>
+standard library provides a nice solution for testing.  Java developers familiar with JUnit,
+and Rubyists familiar with Test::Unit framework should find the following Python
+<strong>unittest</strong> code to be easily readable.
+
+  <pre>
+
+  class AppTest(unittest.TestCase):
+
+      def setUp(self):
+          self.app = locomotive.app.Application()
+
+      def tearDown(self):
+          pass
+
+      def test_development_feeds_list(self):
+          feeds_list = self.app.development_feeds_list()
+          self.assertTrue(len(feeds_list) == 15)
+          self.assertTrue('feed://news.yahoo.com/rss/stock-markets' in feeds_list)
+  </pre>
+</p>
+
+<p>
+The above code also demonstrates a distinguishing feature of Python; all
+code must be consistently indented, or it won't compile successfully.
+The "tearDown(self)" method may look a bit odd at first.  Why, you may think,
+is the test being hard-coded to always pass?  Actually, it's not.  That's just how you
+code an empty method in Python.
+</p>
+
+<h3>Tooling</h3>
+<p>
+What I really needed was an IDE with syntax-highlighting, code-completion, and breakpoint debugging
+functionality to help me with the Python learning-curve.  As a user of the Eclipse IDE for
+Java development, the <a href="http://pyeclipse.sourceforge.net/"><strong>pyeclipse</strong></a>
+plugin was the next tool I looked at.  It works fairly well, though was sluggish at times.
+I eventually invested in the
+<a href="http://www.jetbrains.com/pycharm/"><strong>PyCharm IDE</strong></a>, which meets
+all of my IDE requirements.
+
+</p>
+Armed with a basic knowledge of Python and its ecosystem, it was finally time to
+start implementing a Machine Learning solution with it.
+
+<h2>Part III.  Implementing Categorization with Python and NLTK</h2>
+
+<h3>Capturing and parsing the feeds</h3>
+
+<p>
+The project was particularly challenging due to the fact that the list of target
+RSS feeds had not been defined yet by the client.  Thus there was no "training data",
+either. Therefore, the feed and training data had to be simulated during initial
+development.
+</p>
+
+<p>
+The first approach I used to obtain sample feed data was to simply fetch a list
+of RSS feeds specified in a text file.  Python offers a nice RSS feed parsing library
+called <strong>feedparser</strong> that abstracts the differences between the various
+RSS and Atom formats.  Another useful library, for simple text-based object serialization,
+is humorously called <strong>pickle</strong>.  Both of these libraries are used in the
+code below which captures each of the RSS feeds as "pickled" object files for later use.
+As you can see, the Python code is concise and powerful.
+
+<pre>
+
+import feedparser
+import pickle
+
+class CaptureFeeds:
+
+    def __init__(self):
+        for (i, url) in enumerate(self.rss_feeds_list()):
+            self.capture_as_pickled_feed(url.strip(), i)
+
+    def rss_feeds_list(self):
+        f = open('feeds_list.txt', 'r')
+        list = f.readlines()
+        f.close
+        return list
+
+    def capture_as_pickled_feed(self, url, feed_index):
+        feed = feedparser.parse(url)
+        f = open('data/feed_' + str(feed_index) + '.pkl', 'w')
+        pickle.dump(feed, f)
+        f.close()
+
+if __name__ == "__main__":
+    cf = CaptureFeeds()
+</pre>
+</p>
+
+<p>
+The next step was unexpectedly challenging.  Now that I had sample feed data, it
+had to be categorized for use as "training data".  Training data is the set of data
+that you give to your categorization algorithm, so that it can "learn" from it.
+</p>
+
+<p>
+For example, the sample feeds I used included ESPN, the Sports Network.  One
+of the feed items was on Tim Tebow of the Denver Broncos NFL football team being
+traded to the New York Jets football team, during the same time that the Broncos
+had signed Peyton Manning as their new quarterback.  Another item in the feed
+results was about the Boeing Company and their new jet.  So, the question is,
+what specific category value should be assigned to the first story?  The values
+tebow, broncos, manning, jets, quarterback, trade, and nfl are all appropriate.
+But only one value can be specified in the training data as its category.
+Likewise, in the second story, is the category 'boeing' or 'jet'?
+The devil is in those details.  Accurate manual categorization of a large set of
+training data is essential if your algorithm is to produce accurate results.
+The time required to do this should not be underestimated.
+</p>
+
+<p>
+It soon became apparent that I needed more data to work with, and it had to
+be categorized already, and accurately.  Where would one find such data?
+Enter the Python <strong>Natural Language Toolkit library, NLTK</strong>.
+In addition to being an outstanding library for language text processing, it even comes with
+downloadable sets of sample data, or "corpus" in their terminology, as well
+as an API to easily access this downloaded data.  To install the Reuters
+corpus, run the commands shown below.  Over 10,000 news articles will be
+downloaded to your '~/nltk_data/corpora/reuters/' directory.  As with RSS
+feed items, each Reuters news article contains a title and a body, so this
+NLTK pre-categorized data is excellent for simulating RSS feeds.
+</p>
+
+<pre>
+
+$ <b>python</b>               # enter an interactive Python shell
+>>> import nltk        # import the nltk library
+>>> nltk.download()    # run the NLTK Downloader, then enter 'd' Download
+Identifier> reuters    # specify the 'reuters' corpus
+</pre>
+
+<p>
+Of particular interest is file '~/nltk_data/corpora/reuters/cats.txt'.
+It contains a list of article filenames, and the assigned category for
+each article file.  The file looks like the following, so the article in file
+'14828' in subdirectory 'test' pertains to the topic 'grain'.
+We'll read this file later in this article.
+</p>
+
+<pre>
+
+test/14826 trade
+test/14828 grain
+</pre>
+
+
+<h3>Natural language is messy</h3>
+
+<p>
+The raw input to the RSS feed categorization algorithm, is, of course, text
+written in the English language.  Raw, indeed.
+<p/>
+
+<p>
+English, or any "natural language" (i.e. - spoken or ordinary language) is highly
+irregular and imprecise from a computer-processing perspective.  First, there is
+the matter of case.  Is the word "Bronco" equal to "bronco"?  The answer is maybe.
+Next, there is punctuation and whitespace to content with.  Is "bronco." equal to
+" bronco", or "bronco,"?  Kind of.  Then there are plurals and similar words.
+Are "run", "running", and "ran" equivalent?  Well, it depends.  These three words
+have a common "stem".
+What if the natural language terms are embedded within a markup language like HTML?
+In that case we have to deal with text like "&lt;strong&gt;bronco&lt;/strong&gt;".
+Finally, there is the issue of the frequently used but essentially meaningless
+words like "a", "and", and "the".  These so-called "stopwords" just get in the way.
+Natural language is messy; it needs to be cleaned it up before processing.
+<p/>
+
+<p>
+Fortunately, Python and the NLTK library enable us clean up this mess.
+The "normalized_words" method of class RssItem, shown below, deals with all
+of these issues.  Note, in particular, how the NLTK cleans the raw article text
+of the embedded HTML markup in just one line of code!
+A Regular Expression is used to remove punctuation, and the individual words
+are then "split", and normalized into lowercase.
+<pre>
+
+class RssItem:
+    ...
+    regex = re.compile('[%s]' % re.escape(string.punctuation))
+    ...
+    def normalized_words(self, article_text):
+        words   = []
+        oneline = article_text.replace('\n', ' ')
+        cleaned = nltk.clean_html(oneline.strip())
+        toks1   = cleaned.split()
+        for t1 in toks1:
+            translated = self.regex.sub('', t1)
+            toks2 = translated.split()
+            for t2 in toks2:
+                t2s = t2.strip().lower()
+                if self.stop_words.has_key(t2s):
+                    pass
+                else:
+                    words.append(t2s)
+        return words
+</pre>
+<p/>
+
+<p>
+The list of stopwords came from the NLTK with this one line of code;
+other natural languages are supported.
+<pre>
+nltk.corpus.stopwords.words('english')
+</pre>
+
+The NLTK also offers several "stemmer" classes to further normalize the
+words.  Curious readers are encouraged to see the NLTK documentation on
+stemming, lemmatization, sentence structure, and grammar.
+<p/>
+
+<h3>Classification with Naive Bayes algorithm</h3>
+
+<p>
+The "Naive Bayes" algorithm is widely used, and is implemented in the NLTK library
+with class "nltk.NaiveBayesClassifier".  The Bayes algorithm classifies items per the
+presence or absence of "features" in their datasets.  In the case of the RSS feed items,
+each "feature" is a given (cleaned) word of natural language.  The algorithm is "naive"
+as it assumes that there is no relationship between the features (in this case, words).
+</p>
+
+<p>
+The English language, however, contains over 250,000 words.  Certainly we don't
+want to have to create an object containing 250,000 booleans for each RSS feed item for
+the purpose of passing to the algorithm.  So which words do we use?  In short,
+the answer is the most common words in the population of training data which
+aren't stop works.  The NLTK provides an outstanding class, nltk.probability.FreqDist,
+which we can use to identify these top words.  In the following code the
+"collect_all_words" method returns an array of all the words from all training articles.
+This array is then passed to method "identify_top_words" to identify the most
+frequent words.  A very useful feature of the nltk.FreqDist class is that it's essentially
+a Hash, but its keys are sorted by their corresponding values, or counts.  Thus it it easy
+to obtain the top 1000 words with the "[:1000]" Python syntax.
+<pre>
+  def collect_all_words(self, items):
+      all_words = []
+      for item in items:
+          for w in item.all_words:
+              words.append(w)
+      return all_words
+
+  def identify_top_words(self, all_words):
+      freq_dist = nltk.FreqDist(w.lower() for w in all_words)
+      return freq_dist.keys()[:1000]
+</pre>
+</p>
+
+<p>
+For the simulated RSS feed items with the NLTK Reuters article data, we need to identify
+the categories for each of the items.  This is done by reading the
+"~/nltk_data/corpora/reuters/cats.txt" file mentioned earlier.  Reading a file with Python
+is as simple as this:
+<pre>
+  def read_reuters_metadata(self, cats_file):
+      f = open(cats_file, 'r')
+      lines = f.readlines()
+      f.close()
+      return lines
+</pre>
+</p>
+
+<p>
+The next step is to get the "features" for each of the RSS feed items.
+The "features" method of class RssItem, shown below, does this.  In this method the
+array of all_words in the article is first reduced to a smaller set object to eliminate
+the duplicate words.  Then the top_words are iterated and compared to this set
+for presence or absence.  A Hash of 1000 booleans is returned, keyed by "w_"
+followed by the word itself.  Very concise, this Python.
+<pre>
+  def features(self, top_words):
+      word_set = set(self.all_words)
+      features = {}
+      for w in top_words:
+          features["w_%s" % w] = (w in word_set)
+      return features
+</pre>
+</p>
+
+<p>
+Next, we have to collect a "training set" of RSS feed items, and their individual features,
+and pass it to the algorithm.  The following code demonstrates this.  Note that the classifier
+is trained in exactly one line of code!
+<pre>
+  def classify_reuters(self):
+        ...
+        training_set = []
+        for item in rss_items:
+            features = item.features(top_words)
+            tup = (features, item.category)  # tup is a 2-element tuple
+            featuresets.append(tup)
+        classifier = nltk.NaiveBayesClassifier.train(training_set)
+</pre>
+</p>
+
+<p>
+The NaiveBayesClassifier, in the memory of the running Python program, is now "trained".
+Now we simply iterate the set of RSS feed items which need to be classified, and ask the
+classifier to guess the category for each item.  Pretty simple.
+<pre>
+  for item in rss_items_to_classify:
+      features = item.features(top_words)
+      category = classifier.classify(feat)
+</pre>
+</p>
+
+<h3>Becoming Less Naive</h3>
+
+<p>
+As stated earlier, the algorithm assumes that there is no relationship between
+the individual features.  Thus, phrases like "machine learning" and "learning machine",
+or "New York Jet" and "jet to New York" are equivalent ("to" is a stopword).
+In natural language context there is an obvious relationship between these words.
+So how can we teach our algorithm to become "less naive" and recognize these word relationships?
+</p>
+
+<p>
+One technique is to include the common "bigrams" (groups of two words) and "trigrams" (groups of three words)
+in the feature set.  It should now come as no surprise to you that the NLTK provides support
+for this, in the form of the "nltk.bigrams(...)" and "nltk.trigrams(...)" functions.  Just as the
+top n-number of words were collected from the population of training data words, the top bigrams
+and trigrams can similarly be identified and used as features.
+</p>
+
+<h3>Your Mileage will Vary</h3>
+
+<p>
+Refining the data and the algorithm is something of an art.  Should you further normalize
+the set of words, perhaps with stemming?  Or include more than top 1000 words, or less?
+Or use a larger training data set?  Or add more stopwords, or "stop-grams"?  These are
+all valid questions that you should ask yourself.  Experiment with these, and through
+trial-and-error you will arrive at the best algorithm for your data.  I found that 85%
+was a good rate of successful categorization.
+<p/>
+
+<h3>Recommendation with k-Nearest Neighbors algorithm</h3>
+
+<p>
+The client wanted to be able to display RSS feed items within a selected category, or
+similar categories.  Now that the items had been categorized with the Naive Bayes
+alogirthm, the first part of that requirement was satisfied.  The harder part was
+to implement the "or similar categories" requirement.  This is where Machine Learning
+"Recommender systems" come into play.  Recommender systems recommend an item based on
+similarity to other items.  Amazon.com product recommendations and Facebook friend
+recommendations are good examples of this.
+<p/>
+
+<p>
+k-Nearest Neighbors (kNN) is the most common recommendation algorithm.  The idea is to
+provide it a set of "labels" (i.e. - categories), and a corresponding dataset
+for each label.  The algorithm then compares the datasets to identify similar items.
+The dataset is composed of arrays of numeric values, often in a normalized range from 0 to 1.
+It can then identify the similar labels from the datasets.
+Unlike Naive Bayes which produces one result, kNN can produce a ranked list of several
+(i.e. - the value of "k") recommendations.
+<p/>
+
+<p>
+I found recommender algorithms simpler to comprehend and implement than the classification
+algorithms, though the code was too lengthy and mathematically complex to include here.
+Readers are encouraged to refer to the excellent new Manning book "Machine Learning in Action",
+for kNN coding examples.  In the case of the RSS feed item implementation, the "label" values
+were the item categories, and the dataset was an array of values for each of the top 1000
+words.  Again, constructing this array is part science, part math, and part art.
+The values for each word in the array can be simple zero-or-one booleans, percentages
+of word occurance within the article, an exponential value of this percentage, or
+some other value.
+<p/>
+
+<h2>Conclusions</h2>
+
+<p>
+Discovering Python, the NLTK, and Machine Learning has been a very interesting
+and enjoyable experience.  The Python language is very powerful and concise,
+is now a core part of my developer toolkit.  It is well suited to machine learning,
+natural language, and mathematic/scientific applications.  Though not mentioned
+in this article, I also found it useful for charting and plotting.  If Python has
+similarly been in your "blind spot", I encourage you to take a look at it.
+</p>
+
+<h2>Resources</h2>
+
+<ul>
+  <li><a href="http://en.wikipedia.org/wiki/Machine_learning/">Wikipedia - Machine Learning</a></li>
+  <li><a href="http://www.python.org/">Python Programming Language - Official Website</a></li>
+  <li><a href="http://www.nltk.org/">Natural Language Toolkit Home Page</a></li>
+  <li><a href="http://pypi.python.org/pypi/pip">pip - Python Package Manager</a></li>
+  <li><a href="http://pypi.python.org/pypi/virtualenv">virtualenv - Virtual Python Environment builder</a></li>
+  <li><a href="http://pyeclipse.sourceforge.net/">Python Plugin for the Eclipse IDE</a></li>
+  <li><a href="http://www.jetbrains.com/pycharm/">PyCharm IDE</a></li>
+  <li>Manning Book <a href="http://www.manning.com/pharrington/">Machine Learning in Action</a></li>
+  <li>O'Reilly book <a href="http://shop.oreilly.com/product/9780596516499.do">Natural Language Processing with Python</a></li>
+</ul>
+
+<h2>About the author</h2>
+
+<p>
+  Chris Joakim is Senior Software Engineer and CTO at Locomotive, an international Ruby on Rails consultancy.
+  Chris has developed software for over 25 years with various languages including Ruby, Java, Objective-C,
+  JavaScript, Flex, Smalltalk, Perl, COBOL, and now Python.  He resides in Davidson, NC.  In his spare time
+  he runs marathons and writes code.  You can contact him at chris.joakim@locomotivellc.com.
+  <br/>
+  <img src="images/cjoakim.jpg" alt="Chris Joakim"/>
+</p>
+</body>
+</html>
+
+<!-- version: 2012/05/08 7:04pm -->

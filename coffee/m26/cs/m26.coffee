@@ -1,5 +1,5 @@
 ###
-Copyright 2012, Chris Joakim, <cjoakim@bellsouth.net>
+Copyright 2013, Chris Joakim, <cjoakim@bellsouth.net>
 ###
 
 class M26
@@ -152,10 +152,3 @@ class Speed
       return et.as_hhmmss()
     end
 
-
-m26 = {}
-m26.Distance    = Distance
-m26.ElapsedTime = ElapsedTime
-m26.Speed       = Speed
-
-module.exports = m26
