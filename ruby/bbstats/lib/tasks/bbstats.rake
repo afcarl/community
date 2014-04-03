@@ -11,9 +11,9 @@ namespace :bbstats do
     hash[:batting_csv]     = command_line_arg('bfile', BBStats::DEFAULT_BATTING_CSV)
     hash[:pitching_csv]    = command_line_arg('pfile', BBStats::DEFAULT_PITCHING_CSV)
     hash[:demographic_csv] = command_line_arg('dfile', BBStats::DEFAULT_DEMOGRAPHIC_CSV)
-    hash[:team]    = command_line_arg('team', nil)
-    hash[:year]    = command_line_arg('year', 2014)
-    hash[:verbose] = command_line_arg('verbose', '').downcase == 'true'
+    hash[:team]            = command_line_arg('team', '')
+    hash[:year]            = command_line_arg('year', 2014)
+    hash[:verbose]         = command_line_arg('verbose', '').downcase == 'true'
     hash
   end
 
@@ -35,13 +35,30 @@ namespace :bbstats do
     desc 'Calculate the slugging percentage for given team and year'
     task :calc_slugging_pct_for_team do
       c = BBStats::Calculator.new(opts)
-      c.calc_slugging_pct_for_team
+      result = c.calc_slugging_pct_for_team
+      if result
+        team_id = result[:team_id]
+        year    = result[:year]
+        spct    = result[:spct]
+        puts format("Slugging percentage for team %s in %s was %s", team_id, year.to_s, spct)
+        puts result[:team].inspect if opts[:verbose]
+      end
     end
 
-    desc 'Identify the triple-crown winner for a given year'
-    task :identify_triple_crown_winner do
+    desc 'Identify the triple-crown winner(s) for a given year'
+    task :identify_triple_crown_winners do
       c = BBStats::Calculator.new(opts)
-      c.identify_triple_crown_winner
+      mlb_results = c.identify_triple_crown_winners
+      year = opts[:year]
+      if mlb_results.empty?
+        puts "no triple-crown winner(s) for #{year}"
+      else
+        mlb_results.each do | league_results |
+        league = league_results[:league]
+        full_name = league_results[:demo].full_name
+        puts "triple-crown winner for #{year} in the #{league} is #{full_name}!"
+        end
+      end
     end
 
   end

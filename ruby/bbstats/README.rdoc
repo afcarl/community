@@ -11,17 +11,25 @@ Calculates baseball statistics from csv data files.
 
 - install rvm, the ruby version manager
 - rvm install ruby-2.1.1
+- gem install bundler
 - bundle install
 
 == Testing
 
 rake spec
 
+== Code Coverage
+
+run the tests, then visit file coverage/index.html with your browser.
+coverage in this version exceeds 98.5%
+
 == Usage
 
 - rake bbstats:batting:calc_most_improved_avg year=2010
-- rake bbstats:batting:calc_most_improved_avg year=2010 verbose=true
-- rake bbstats:batting:calc_most_improved_avg year=2009
+- rake bbstats:batting:calc_slugging_pct_for_team team=OAK year=2007
+- rake bbstats:batting:identify_triple_crown_winners year=2012
+- rake bbstats:batting:identify_triple_crown_winners year=2011
+- rake bbstats:version_info
 
 == Future Enhancements
 

@@ -4,7 +4,7 @@ describe "BBStats::Batter" do
 
   before do
     @derek = BBStats::Batter.new(%w(jeterde01 2010 AL NYA 157 663 111 179 30 3 10 67 18 5))
-    @chris = BBStats::Batter.new(%w(joakimc01 2013 AL NYA   0   0   0   0  0 0  0  0  0 0))
+    @chris = BBStats::Batter.new(%w(joakimc01 2013 AL RoR   0   0   0   0  0 0  0  0  0 0))
   end
 
   it "should have the correct player_id" do
@@ -87,6 +87,16 @@ describe "BBStats::Batter" do
 
     @chris.has_min_at_bats?(700).should be_false
     @derek.has_min_at_bats?(700).should be_false
+  end
+
+  it "should implement is_team?" do
+    @derek.is_team?('BOS').should be_false
+    @derek.is_team?('NYA').should be_true
+  end
+
+  it "should implement is_league?" do
+    @derek.in_league?('NL').should be_false
+    @derek.in_league?('AL').should be_true
   end
 
   it "should implement is_year?" do

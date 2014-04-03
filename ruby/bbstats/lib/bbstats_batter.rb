@@ -96,8 +96,16 @@ module BBStats
       at_bats >= min
     end
 
+    def is_team?(id)
+      team_id == id
+    end
+
     def is_year?(y=0)
       year == y
+    end
+
+    def in_league?(l)
+      league == l
     end
 
     def batting_average
