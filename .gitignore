@@ -1,5 +1,6 @@
 
 coffee/m26/node_modules/
+ruby/bbstats/coverage/
 scala/eboox/target/classes/*
 scala/eboox/target/test-classes/*
 txt_merged.txt
