@@ -1,3 +1,4 @@
+
 module BBStats
 
   # This class is used to load the application data at runtime.  The current
@@ -17,14 +18,6 @@ module BBStats
       load_batting_data
       load_pitching_data
       load_demographic_data
-      # if verbose?
-      #   puts "Datastore batters file:      #{@@options[:batting_csv]}"
-      #   puts "Datastore batters size:      #{@@batters.size}"
-      #   puts "Datastore demographics file: #{@@options[:demographic_csv]}"
-      #   puts "Datastore demographics size: #{@@demographics.size}"
-      #   puts "Datastore error?:            #{error?}"
-      #   puts "Datastore error:             #{@@error.inspect}"
-      # end
       @@error
     end
 

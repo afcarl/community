@@ -20,7 +20,7 @@ rake spec
 
 == Code Coverage
 
-run the tests, then visit file coverage/index.html with your browser.
+run the tests, then view file coverage/index.html with your browser.
 coverage in this version exceeds 98.5%
 
 == Usage

@@ -1,3 +1,4 @@
+
 module BBStats
 
   class Pitcher
