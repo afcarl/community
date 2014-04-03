@@ -1,0 +1,12 @@
+== BBStats
+
+version 0.1.0, 2014-04-03
+
+== Synopsis
+
+== Copyright and License
+
+Copyright 2014, Christopher Joakim <christopher.joakim@gmail.com>
+
+GNU General Public License (GPLv3) license.
+See http://www.gnu.org/copyleft/gpl.html
