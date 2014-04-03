@@ -4,6 +4,7 @@ describe "BBStats::Batter" do
 
   before do
     @derek = BBStats::Batter.new(%w(jeterde01 2010 AL NYA 157 663 111 179 30 3 10 67 18 5))
+    @chris = BBStats::Batter.new(%w(joakim01  2013 AL NYA   0   0   0   0  0 0  0  0  0 0))
   end
 
   it "should have the correct player_id" do
@@ -38,6 +39,11 @@ describe "BBStats::Batter" do
     @derek.hits.should == 179
   end
 
+  it "should have the correct singles" do
+    @chris.singles.should == 0
+    @derek.singles.should == 136
+  end
+
   it "should have the correct doubles" do
     @derek.doubles.should == 30
   end
@@ -61,5 +67,17 @@ describe "BBStats::Batter" do
   it "should have the correct steals_out" do
     @derek.steals_out.should == 5
   end
+
+  it "should have the correct batting_average" do
+    @chris.batting_average.should be_within(0.000).of(0.0)
+    @derek.batting_average.should be_within(0.001).of(269.9849)
+  end
+
+  it "should have the correct slugging_percentage" do
+    @chris.slugging_percentage.should be_within(0.000).of(0.0)
+    puts @derek.slugging_percentage
+    @derek.slugging_percentage.should be_within(0.001).of(369.5324)
+  end
+
 
 end

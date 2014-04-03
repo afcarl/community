@@ -60,6 +60,10 @@ module BBStats
       row[field_index(:hits)].to_s.strip.to_i
     end
 
+    def singles
+      hits - doubles - triples - homers
+    end
+
     def doubles
       row[field_index(:doubles)].to_s.strip.to_i
     end
@@ -82,6 +86,16 @@ module BBStats
 
     def steals_out
       row[field_index(:steals_out)].to_s.strip.to_i
+    end
+
+    def batting_average
+      return 0.0 if at_bats < 1
+      (hits.to_f / at_bats.to_f) * 1000.0
+    end
+
+    def slugging_percentage
+      return 0.0 if at_bats < 1
+      ((singles + (doubles * 2) + (triples * 3) + (homers * 4)).to_f / at_bats.to_f) * 1000.0
     end
 
     private
