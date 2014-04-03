@@ -12,7 +12,7 @@ namespace :bbstats do
     hash[:pitching_csv]    = command_line_arg('pfile', BBStats::DEFAULT_PITCHING_CSV)
     hash[:demographic_csv] = command_line_arg('dfile', BBStats::DEFAULT_DEMOGRAPHIC_CSV)
     hash[:team]    = command_line_arg('team', nil)
-    hash[:year]    = command_line_arg('year', nil)
+    hash[:year]    = command_line_arg('year', 2014)
     hash[:verbose] = command_line_arg('verbose', '').downcase == 'true'
     hash
   end
@@ -22,7 +22,14 @@ namespace :bbstats do
     desc 'Calculate the most improved batting average for a given year'
     task :calc_most_improved_avg do
       c = BBStats::Calculator.new(opts)
-      c.calc_most_improved_avg
+      result = c.calc_most_improved_avg
+      if result
+        puts "Batter with the most improved batting average is"
+        puts "  name:         #{result[:demo].full_name}"
+        puts "  #{result[:curr].year} average: #{result[:curr].batting_average}"
+        puts "  #{result[:prev].year} average: #{result[:prev].batting_average}"
+        puts "  diff:         #{result[:diff]}"
+      end
     end
 
     desc 'Calculate the slugging percentage for given team and year'

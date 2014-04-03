@@ -36,6 +36,10 @@ module BBStats
       row[field_index(:year)].to_s.strip.to_i
     end
 
+    def id_year_key
+      "#{player_id}:#{year}"
+    end
+
     def league
       row[field_index(:league)]
     end
@@ -86,6 +90,14 @@ module BBStats
 
     def steals_out
       row[field_index(:steals_out)].to_s.strip.to_i
+    end
+
+    def has_min_at_bats?(min=200)
+      at_bats >= min
+    end
+
+    def is_year?(y=0)
+      year == y
     end
 
     def batting_average

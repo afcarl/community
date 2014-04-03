@@ -4,6 +4,32 @@ version 0.1.0, 2014-04-03
 
 == Synopsis
 
+Calculates baseball statistics from csv data files.
+
+
+== Setup
+
+- install rvm, the ruby version manager
+- rvm install ruby-2.1.1
+- bundle install
+
+== Testing
+
+rake spec
+
+== Usage
+
+rake bbstats:batting:calc_most_improved_avg year=2010
+rake bbstats:batting:calc_most_improved_avg year=2010 verbose=true
+rake bbstats:batting:calc_most_improved_avg year=2009
+
+== Future Enhancements
+
+- Pitching data
+
+- Consider using a relational or non-relational database as the datastore.
+  Modify class BBStats::Datastore if so.
+
 == Copyright and License
 
 Copyright 2014, Christopher Joakim <christopher.joakim@gmail.com>

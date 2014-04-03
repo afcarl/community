@@ -9,10 +9,11 @@ module BBStats
 
     @@batters, @@pitchers, @@demographics = [], [], {}
     @@options, @@error = nil, nil
+    @@batter_ids, @@batter_years = {}, {}
 
     def self.load(opts={})
       @@options = opts
-      puts "Datastore.load; opts: #{opts.inspect}"
+      puts "Datastore.load; opts: #{opts.inspect}" if verbose?
       load_batting_data
       load_pitching_data
       load_demographic_data
@@ -28,8 +29,29 @@ module BBStats
       @@error
     end
 
-    # playerID,birthYear,nameFirst,nameLast
-    # playerID,yearID,league,teamID,G,AB,R,H,2B,3B,HR,RBI,SB,CS
+    def self.batters
+      @@batters
+    end
+
+    def self.pitchers
+      @@pitchers
+    end
+
+    def self.demographics
+      @@demographics
+    end
+
+    def self.batter_ids
+      @@batter_ids
+    end
+
+    def self.sorted_batter_ids
+      @@batter_ids.keys.sort
+    end
+
+    def self.batter_for_year(id, y)
+      @@batter_years["#{id}:#{y}"]
+    end
 
     def self.error?
       (@@error.nil?) ? false : true
@@ -64,7 +86,10 @@ module BBStats
         CSV.foreach(filename, :headers => true) do | row |
           if row && row.size == expected_size
             if data_type == :batter
-              @@batters << BBStats::Batter.new(row)
+              b = BBStats::Batter.new(row)
+              @@batters << b
+              @@batter_ids[b.player_id] = :exists
+              @@batter_years[b.id_year_key] = b
             elsif data_type == :demographic
               id = row[0]
               @@demographics[id] = BBStats::Demographic.new(row)
