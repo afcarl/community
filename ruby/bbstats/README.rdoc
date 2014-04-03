@@ -19,9 +19,9 @@ rake spec
 
 == Usage
 
-rake bbstats:batting:calc_most_improved_avg year=2010
-rake bbstats:batting:calc_most_improved_avg year=2010 verbose=true
-rake bbstats:batting:calc_most_improved_avg year=2009
+- rake bbstats:batting:calc_most_improved_avg year=2010
+- rake bbstats:batting:calc_most_improved_avg year=2010 verbose=true
+- rake bbstats:batting:calc_most_improved_avg year=2009
 
 == Future Enhancements
 
