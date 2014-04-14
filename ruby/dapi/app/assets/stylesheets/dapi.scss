@@ -1,0 +1,22 @@
+
+// Name all colors and styles with a 'dapi-' prefix, to namespace them, so as
+// not to collide with other CSS frameworks and their names.
+
+// Define colors here in one place in a DRY manner, then user them below.
+$dapi_header_gray:    #E6E6E6;
+$dapi_darker_gray:    darken($dapi_header_gray, 20%);
+$dapi_lighter_gray:   lighten($dapi_header_gray, 20%);
+
+$dapi_flash_error_color:  #DD2820;
+$dapi_flash_notice_color: #E6E6E6;
+
+.dapi-footer {
+  border:           1px solid $dapi_darker_gray;
+  background-color: $dapi_header_gray;
+  height:           24px;
+}
+
+#new_label_form_table {
+  width:    40%;
+  align:    center;
+}

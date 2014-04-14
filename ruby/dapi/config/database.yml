@@ -1,0 +1,26 @@
+development:
+  adapter:  postgresql
+  encoding: unicode
+  database: dapi_development
+  pool:     5
+  username: dapi_user
+  password: secret
+
+test: &test
+  adapter:  postgresql
+  encoding: unicode
+  database: dapi_test
+  pool:     5
+  username: dapi_user
+  password: secret
+
+production:
+  adapter:  postgresql
+  encoding: unicode
+  database: dapi_production
+  pool:     5
+  username: dapi_user
+  password: secret
+
+cucumber:
+  <<: *test

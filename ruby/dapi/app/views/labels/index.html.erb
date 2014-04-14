@@ -1,0 +1,42 @@
+<h3>Labels</h3>
+
+<% if @labels.nil? %>
+  <p>No Labels returned</p>
+<% else %>
+  <table class="table" id="labels_table">
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>&nbsp;</th>
+    </tr>
+    <% @labels['_embedded']['entries'].each do | l | %>
+    <tr>
+      <td><%= l['id'] %></td>
+      <td><%= l['name'] %></td>
+      <td></td>
+    </tr>
+    <% end %>
+  </table>
+<% end %>
+
+<hr/>
+
+<h4>Create New Label</h4>
+
+<table class="table" id="new_label_form_table">
+<%= form_tag(labels_create_path, :id => 'label_create_form', method: "post") do %>
+  <tr>
+    <td><%= label_tag :name %></td>
+    <td><%= text_field_tag :name, epoch_label, class: 'input-xlarge' %></td>
+  </tr>
+  <tr>
+    <td><%= label_tag :description %></td>
+    <td><%= text_field_tag :description, '', class: 'input-xlarge' %></td>
+  </tr>
+  <tr>
+    <td colspan='2'>
+      <%= submit_tag "Create Label", class: "btn btn-primary" %>
+    </td>
+  </tr>
+<% end %>
+</table>

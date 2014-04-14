@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title><%= app_name %> - <%= desk_site_name %></title>
+
+  <!-- Twitter Bootstrap - Latest compiled and minified CSS, Theme, and JavaScript -->
+  <%= favicon_link_tag 'favicon.ico' %>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => false %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-11">
+        <h2>DAPI</h2>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-11">
+        <% flash.each do | name, msg | %>
+          <% if msg.is_a?(String) %>
+            <%= content_tag :div, msg, :class => bootstrap_flash_class(name) %>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-1">
+        <div class="row">
+          <ul class="nav nav-pillsxz nav-stacked">
+            <li>&nbsp;</li>
+            <li class="active"><a href="<%= cases_index_path %>">Cases</a></li>
+            <li><a href="<%= labels_index_path %>">Labels</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-11">
+        <%= yield %>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer navbar-fixed-bottom dapi-footer">
+    <p class='text-center'>© 2014 christopher.joakim@gmail.com</p>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</body>
+</html>

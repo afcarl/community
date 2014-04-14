@@ -1,0 +1,22 @@
+<h3>Cases</h3>
+
+<% if @cases.nil? %>
+  <p>No Cases returned</p>
+<% else %>
+  <table class="table" id="cases_table">
+    <tr>
+      <th>Id</th>
+      <th>Subject</th>
+      <th>Blurb</th>
+      <th>&nbsp;</th>
+    </tr>
+    <% @cases['_embedded']['entries'].each do | c | %>
+    <tr>
+      <td><%= c['id'] %></td>
+      <td><%= c['subject'] %></td>
+      <td><%= c['blurb'] %></td>
+      <td></td>
+    </tr>
+    <% end %>
+  </table>
+<% end %>
