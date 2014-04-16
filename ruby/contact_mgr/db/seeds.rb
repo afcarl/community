@@ -1,0 +1,1 @@
+SeedData.new({:verbose => true}).load

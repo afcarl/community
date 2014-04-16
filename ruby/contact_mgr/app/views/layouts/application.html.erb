@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CM - Contact Manager</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row cm-header">
+    <div class="col-md-3">
+      <h2 class='text-center'> Contact Manager </h2>
+    </div>
+    <div class="col-md-9">
+      <h2><small><%=h flash[:notice] %></small></h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+      <%= render "shared/add_contact_btn" %>
+      <%= render "shared/contacts" %>
+    </div>
+    <div class="col-md-9">
+      <%= yield %>
+    </div>
+  </div>
+</div>
+
+<div class="footer navbar-fixed-bottom cm-footer">
+  <p class='text-center'>©christopher.joakim@gmail.com</p>
+</div>
+
+</body>
+</html>

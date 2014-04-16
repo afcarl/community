@@ -1,0 +1,30 @@
+
+      <div class="container-fluid">
+        <table class="table table-hover border">
+          <thead>
+            <tr>
+              <th class="contact-list-th">&nbsp;</th>
+              <th class="contact-list-th">&nbsp;</th>
+            </tr>
+          </thead>
+          <tbody>
+          <% all_contacts.each do | c | %>
+            <tr class="contact-list-item">
+              <td class="text-left">
+                <p>
+                  <%= image_tag('user_24.png') %>
+                  <strong class='list-name'><%= link_to("#{c.name}", c) %></strong>
+                </p>
+              </td>
+              <td class="text-left">
+                <p>
+                  <% if c.id == current_contact_id %>
+                    <strong> &gt; </strong>
+                  <% end %>
+                </p>
+              </td>
+            </tr>
+          <% end %>
+          </tbody>
+        </table>
+      </div>

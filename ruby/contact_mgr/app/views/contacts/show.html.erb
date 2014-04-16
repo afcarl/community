@@ -1,0 +1,60 @@
+
+<table class='full-width'>
+  <tr>
+    <td colspan='3'>
+      <h2><%= @contact.name %> &nbsp;
+      <%= link_to(edit_contact_path(@contact), :id => 'edit-glyph-link') do %>
+        <span class="glyphicon glyphicon-pencil"></span>
+      <% end %>
+      </h2>
+      <hr class='show-hr'></hr>
+    </td>
+  </tr>
+
+  <tr>
+    <td width='25%' class="text-left">
+      <p>
+        <%= image_tag('user_200.png') %>
+      </p>
+    </td>
+    <td width='75%' class="text-left">
+
+    <table class='full-width'>
+      <tr>
+        <td width='25%'>SEX</td>
+        <td width='20%'>AGE</td>
+        <td width='55%'>BIRTHDAY</td>
+      </tr>
+      <tr>
+        <td><strong><%= @contact.sex %></strong></td>
+        <td><strong><%= @contact.age %></strong></td>
+        <td><strong><%= @contact.birthday %></strong></td>
+      </tr>
+      <tr>
+        <td colspan='3'>&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan='3'>ADDRESS</td>
+      </tr>
+      <tr>
+        <td colspan='3'><strong><%= @contact.street %></strong></td>
+      </tr>
+      <tr>
+        <td colspan='3'><strong><%= @contact.city %> <%= @contact.state %>, <%= @contact.postal_code %></strong></td>
+      </tr>
+      <tr>
+        <td colspan='3'>&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan='2'>PHONE</td>
+        <td width='33%'>EMAIL</td>
+      </tr>
+      <tr>
+        <td colspan='2'><strong><%= @contact.phone %></strong></td>
+        <td><strong><%= @contact.email %></strong></td>
+      </tr>
+    </table>
+
+    </td>
+  </tr>
+</table>

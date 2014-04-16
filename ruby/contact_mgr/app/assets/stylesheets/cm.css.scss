@@ -1,0 +1,65 @@
+// Place all the styles related to the contacts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$cm_header_gray:    #E6E6E6;
+$cm_darker_gray:    darken($cm_header_gray, 20%);
+$cm_lighter_gray:   lighten($cm_header_gray, 20%);
+
+.contact-list-th {
+  padding-bottom:  20px;
+}
+
+.contact-list-item {
+  background-color: $cm_header_gray;
+}
+
+#add-contact-btn-row {
+  width:           100%;
+}
+
+.contact-name-large {
+
+}
+
+.flashes {
+    float:          none;
+    display:        inline-block;
+    vertical-align: middle;
+    margin-right:   -4px;
+}
+
+.flash_header {
+
+}
+
+.full-width {
+  width:            100%;
+}
+
+.show-hr {
+  height:           3px;
+  color:            $cm_darker_gray;
+  background-color: $cm_darker_gray;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.cm-header {
+  border:           3px solid $cm_darker_gray;
+  background-color: $cm_header_gray;
+}
+
+.cm-flashes {
+  height:           30px;
+}
+
+.cm-footer {
+  border:           1px solid $cm_darker_gray;
+  background-color: $cm_header_gray;
+  height:           24px;
+}

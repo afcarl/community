@@ -1,0 +1,25 @@
+
+default: &default
+  adapter:  mysql2
+  encoding: utf8
+  pool:     5
+  username: cm
+  password: cm
+  host:     localhost
+
+development:
+  <<: *default
+  database: cm_development
+
+test: &test
+  <<: *default
+  database: cm_test
+
+production:
+  <<: *default
+  database: cm_production
+  username: cm
+  password: <%= ENV['CM_DATABASE_PASSWORD'] %>
+
+cucumber:
+  <<: *test
