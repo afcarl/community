@@ -1,0 +1,32 @@
+[
+  {
+    "index": 0,
+    "name": "merchant",
+    "type": "text"
+  },
+  {
+    "index": 1,
+    "name": "start_date",
+    "type": "date"
+  },
+  {
+    "index": 2,
+    "name": "end_date",
+    "type": "date"
+  },
+  {
+    "index": 3,
+    "name": "deal",
+    "type": "text"
+  },
+  {
+    "index": 4,
+    "name": "price",
+    "type": "int"
+  },
+  {
+    "index": 5,
+    "name": "value",
+    "type": "int"
+  }
+]
