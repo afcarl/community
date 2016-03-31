@@ -1,0 +1,28 @@
+
+Courses, active:
+  c628944 Suicide
+  c424294 Patents
+  c300581 Astronautics
+  c967824 Budgeting
+  c696253 Substance abuse
+  c165687 Natural religion
+  c035962 French language
+  c032306 Judiciary
+  c732380 Abortion, law
+  c921807 Jokes
+  c963278 Botany
+  c494738 Air warfare
+  c289566 Diseases
+  c439738 Depression glass
+  c145137 Investing
+  c222487 Kitchen remodeling
+  c212550 Weather forecasting
+  c313224 Conservation
+  c215152 Witchcraft
+
+Courses, inactive:
+  c069987 Holidays
+  c126767 Feelings
+  c663390 Satire
+  c961976 Elections
+
