@@ -1,0 +1,35 @@
+
+
+ 0.0 R Onto Rt 115 at Alino's Pizza
+ 0.7 S Rt 115 becomes Rt 152 in Downtown Mooresville
+ 2.4 S North Main Park (bathrooms, water)
+ 3.1 L Wiggins Rd at school
+ 3.2 S Across Rt 150, staying on Wiggins Rd
+ 6.5 R Rt 801
+ 6.5 L Mezappa Rd
+ 7.2 R Triplett Rd
+11.1 R Amity Hill Rd
+16.9 - Arrive at Convience Store at Rt 70, Cleveland
+16.9 R Rt 70
+17.1 L West Main St
+18.1 L Church St
+18.2 L Maple St
+18.3 R 3rd Creek Church Rd (Rt 1957)
+20.3 S Baker Mill Rd (3rd Creek turns left, Foster on Right)
+23.2 R Cool Springs Rd (Rt 1003) at T. 
+25.3 S Mt Vernon Rd on left, cross South Yadkin River
+28.5 S Cross Third Creek
+29.9 R Unnamed Rd in center of Woodleaf
+33.4 R Rt 70
+35.0 L Barber Jct Rd
+36.9 L Rt 801 / Sherrils Ford Rd
+37.0 R White Rd
+39.0 R Lyerly Rd (Rt 1771)
+43.2 S Ponies at Back Creek Church Rd
+46.6 R Rt 150 / Mooresville Rd
+49.0 L Rt 152
+50.0 S North Main Park 
+51.5 S Rt 152 becomes Rt 115 in Downtown Mooresville
+52.3 L Alino's Pizza
+
+
